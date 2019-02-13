@@ -1,0 +1,6 @@
+framework module Pods_Pinterest3 {
+  umbrella header "Pods-Pinterest3-umbrella.h"
+
+  export *
+  module * { export * }
+}
