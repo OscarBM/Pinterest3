@@ -103,24 +103,25 @@ class ViewController: UIViewController {
         return ub
     }()
     
+    /*
     //Estafuncion la metiste TU
     @objc func handleButton(){
         print("El nombre es: \(nameTextField.text)")
         print("El correo es: \(emailTextField.text)")
-        print("El contrasena es: \(passwordTextField.text)")    }
+        print("El contrasena es: \(passwordTextField.text)")    }*/
     
-    /*
+    
      @objc func handleButton(){//Comentaste el codigo porque no jalaba
      guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
      print("Not valid")
      return
      }
-     Auth.auth().createUser(withEmail: email, password: password) { (user:User?, error) in
+     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
      if error != nil {
      print(error)
      return
      }
-     
+     /*
      guard let uid = user?.uid else {
      return
      }
@@ -133,13 +134,13 @@ class ViewController: UIViewController {
      if  error != nil {
      print(error)
      }
-     })
+     })*/
      
      // successfully included
      print("Saved user successfully into our database")
-     
+        print("El correo es: \(self.emailTextField.text)")
+        print("El contrasena es: \(self.passwordTextField.text)")      }
      }
-     }*/
     
 }
 
