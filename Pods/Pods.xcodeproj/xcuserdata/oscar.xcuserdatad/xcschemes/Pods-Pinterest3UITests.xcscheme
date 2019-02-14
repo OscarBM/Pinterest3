@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9814A001F3E0009F702BF6EC796446CA"
+               BlueprintIdentifier = "A4DDB65670F3AF0A64C6194294624BCA"
                BuildableName = "Pods_Pinterest3UITests.framework"
                BlueprintName = "Pods-Pinterest3UITests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9814A001F3E0009F702BF6EC796446CA"
+            BlueprintIdentifier = "A4DDB65670F3AF0A64C6194294624BCA"
             BuildableName = "Pods_Pinterest3UITests.framework"
             BlueprintName = "Pods-Pinterest3UITests"
             ReferencedContainer = "container:Pods.xcodeproj">

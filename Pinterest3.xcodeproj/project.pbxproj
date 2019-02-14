@@ -180,6 +180,7 @@
 				55310989220D524B00C25454 /* Sources */,
 				5531098A220D524B00C25454 /* Frameworks */,
 				5531098B220D524B00C25454 /* Resources */,
+				7A8B161AAD455F4F4A77D46C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +218,6 @@
 				553109A8220D524C00C25454 /* Sources */,
 				553109A9220D524C00C25454 /* Frameworks */,
 				553109AA220D524C00C25454 /* Resources */,
-				A37550D0B6549A6122F01DB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,7 +367,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A37550D0B6549A6122F01DB5 /* [CP] Embed Pods Frameworks */ = {
+		7A8B161AAD455F4F4A77D46C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +375,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Pinterest3/Pods-Pinterest3-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -388,7 +388,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinterest3/Pods-Pinterest3-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

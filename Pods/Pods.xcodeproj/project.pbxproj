@@ -62,9 +62,7 @@
 		06DE8D644B4500C4F25871F5817E9B30 /* GULUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BDD176B16D91D5B716627EA1CF60CF /* GULUserDefaults.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		09BA2B85B4D3A18F7D1E57BB80828BD9 /* GULNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B62EFF1897758AC88032FD6EDCEBAA /* GULNetworkConstants.m */; };
 		0AA1516C53AF76061CBAB2646F3AFFE8 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC27C8353D28E01D26AD1BC5F02B5DD /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ADA6C448029F28BE3770807446C346E /* Pods-Pinterest3UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1971CFB45D4D65B2BFD2F6A6C3DE6F /* Pods-Pinterest3UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		131C584CC42207AE38C9B02CCA93BC20 /* FIRLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 637BCC73DAC0DA197554592F94125A63 /* FIRLibrary.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		13581D5BE15386197184A7E03D5EA273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
 		161DA7FD58D2B4BD6788ED1A1EC4D4D9 /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8728D6E7887C2737591E07234A8EFFA /* GoogleUtilities-dummy.m */; };
 		167EC0D6E6CA8F0A13B6CB28FCDFB2D3 /* FIRLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A23DB76A098825EA1DC9A025FEFB6059 /* FIRLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		17C8EF1758E18D4BC2CDC094579C17AC /* FIRConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8DFCC73C922953BE6D270787381FC1 /* FIRConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,11 +81,12 @@
 		3114C26A42681313B7F292DEFEA4AB23 /* FIRAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 688517E7AA55E4DCC336813F9BC6D2F3 /* FIRAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3186A8F692C6DCA34411EBCED965DA5C /* GULOriginalIMPConvenienceMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D28EC2CE5CA4EBC260A584602FF92D5B /* GULOriginalIMPConvenienceMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		319C57F799237E5E10948965A2A94843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
+		34369BC4ECA170C9EA2DA8CBBFAF04B6 /* Pods-Pinterest3UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB49B0F5C3BC8C46FDF048A1D6EDDD /* Pods-Pinterest3UITests-dummy.m */; };
 		350A5A886E6A58D8CDCDD4253BC38BDC /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CCA94FF4846B4FAC40303142690174 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D665B3D90C6BE89DEC067A5ED94F57 /* GULNetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A82D15B14A4CB1AA3C17E0F085B945 /* GULNetworkConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3B68F1157F767E0A567E3342BE503D66 /* FIRErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE6A9039020055F2B6BE8FD090E0BF9 /* FIRErrors.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3BB343D149E94DCA9736241B605534AA /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F76F12B2A18FE82603372FF7554B8F /* GULAppEnvironmentUtil.m */; };
-		3C9082C52C5E19B571561483C602DC32 /* Pods-Pinterest3Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B70B51B9437D5BAA0F3AEA4B43235EF1 /* Pods-Pinterest3Tests-dummy.m */; };
+		3C9082C52C5E19B571561483C602DC32 /* Pods-Pinterest3Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15F856253D18057AD3B535516BEF025 /* Pods-Pinterest3Tests-dummy.m */; };
 		3F5F0473B00C277797303FA939E6DBAB /* GULMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 922F7404DA72D40195356E301809FB79 /* GULMutableDictionary.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		49EA6B4459F2B9C1CE0E1DCAE261FDEF /* GULNetworkURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDFA1AD8D3EF19358015B92025BDCC7 /* GULNetworkURLSession.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4AEAF2548FD03171132E796282A5A71A /* FIRBundleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E40BA573BDCBA70F407673A632E0F42 /* FIRBundleUtil.m */; };
@@ -96,21 +95,23 @@
 		4DB3785D5FF90EE291AD9E6888678568 /* FIRErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A0D475FDA5F862C8852D3ABD7589CD /* FIRErrorCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4DF83A76C578938051AFFAC51A0E1471 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = CDEF4FA4C0DC0309B6D4A332E874E445 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
 		531D80A0B9967E698C050D4621953516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
+		5470E9908D6EF905C9EFAAFBA87A404A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
 		5803D830BEAB4B1992945388A716537D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
 		5A84786CE0B0F1A1F8090E765B046C4D /* FIRAppInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D9DC3E8B1EE022BB13E7DAE0A8A60D /* FIRAppInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5B469132FE6F3D6BD781A223B88A5F41 /* FIROptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 858412A856E6D790FBA072B3F2AFBC23 /* FIROptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E638B27DC537F86FE14FD7E312A350E /* FIRVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F40E83A7526CE4D59E2D06B134B0CBC /* FIRVersion.m */; };
 		62D28905E5357811247084EA63BBF4DA /* GULNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E66DCFE40E11E783B37744161B884A84 /* GULNetwork.m */; };
-		6821FF33AE7145DB92BCCB1191954602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
+		64111BF1BEA7794ED0DA16B032EAE74D /* Pods-Pinterest3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76425DF335EBBE9ADA8B5C205DDC8D0 /* Pods-Pinterest3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AA5596E1B32B6664794B84C8D53BB3C /* GULMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF922FC024B1E5B48502DA016B9CD51 /* GULMutableDictionary.m */; };
+		6B09FDB7EA2C05A8A7F6C6F7B2800C10 /* Pods-Pinterest3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3397C8A023026304429172A86C288334 /* Pods-Pinterest3-dummy.m */; };
 		6C8C3F762C321C7FCF5D7A91E0CBD4B1 /* GULNetworkLoggerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BCA94C4441A4AC05A4413FC8C6C9B4 /* GULNetworkLoggerProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		723B1DEC2C8098017A02DF898B87E8D0 /* GULLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B34DE5E5CA99741C88BF3F74084E5 /* GULLogger.m */; };
 		76478F8839B3E900D460C0DE15D21F53 /* FIRErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E25C0984A68268A9D7195FE75537C6 /* FIRErrors.m */; };
 		7E169F6567DADEB4C0269E64A51E6DA4 /* GULReachabilityMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C222449551DF45F83632030D9BEC1D /* GULReachabilityMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7ECCABAE2F3BD0FD5701CA0936C50EC0 /* Pods-Pinterest3UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ECB2BCEF907E0513DF76291B942766 /* Pods-Pinterest3UITests-dummy.m */; };
 		7FE7DA15DFBB03C6F320F4137F0284ED /* GULSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = BC637FADDFE1B7CFA561AA497D3D403B /* GULSwizzler.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8343914CF540F43454F0A80F319961E8 /* FIRAnalyticsConfiguration+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 869348EF215CE88F1259937365E1930C /* FIRAnalyticsConfiguration+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		854834B0636DAEB384EAC5BBFA00993A /* FIRComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B85F9C6890C9E73983DE553961FB1FB /* FIRComponent.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8880F02789D8C43DCCC4A316A3D06F85 /* Pods-Pinterest3UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C126EC92683B6E2228C52D9F167C981 /* Pods-Pinterest3UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88B58642B5770D7313961DB5AAC02C58 /* GULReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E90BD5D837394F5BA570719ED2C8A /* GULReachabilityChecker.m */; };
 		90BA3209CD339006E7B46A3410F4CD47 /* GULLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A28FE6F7C29AA3320231BADCAFE14FFA /* GULLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		90FF5AE27672B3705B540430627AAE1A /* FIRApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E98ECC78D182431BF45074FE9AD948 /* FIRApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,16 +134,15 @@
 		C89BB6836DEA8F2EE0B9199A7A78CDDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099602E95CC02BDF479BAE577F2E1E33 /* SystemConfiguration.framework */; };
 		CD615CD72DECC08D3F0223C7E23B3093 /* FIRComponentContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F22C37ED1561AAF1C0CEF611C7387E /* FIRComponentContainer.m */; };
 		D09DE4F8CF9819C7BB99A345BBA78339 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A62F5DEA813F07D663C4B01BE3FDEA0 /* Security.framework */; };
-		D0B574ABAB2418EDA8D630286F6BD49C /* Pods-Pinterest3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C21424158EF8204FD5FF0E6FBB06E28 /* Pods-Pinterest3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0FE30F9B8D24715714954E61B6B5F36 /* GULLoggerCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FA771796A397EADC9FE1AAFA6DFED9 /* GULLoggerCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D61867C7D901892724105F7FAC29841E /* GULLoggerLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 882840F6FFE2661B0D9494DC73DF0290 /* GULLoggerLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D780901FD66E3D4D29C65BD48F52340A /* GULNetworkMessageCode.h in Headers */ = {isa = PBXBuildFile; fileRef = D01A32FC4B708AF7367F2F0A42FE7300 /* GULNetworkMessageCode.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D8A219829C97AE6AF93A048E09F5680D /* FIRComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AE12E6A3C48387E321C73594553F0 /* FIRComponent.m */; };
 		E6E306527999E035678E03FCFB44F5E6 /* FIROptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091EB612F9FA9B1ADEEBBEF6A584C28 /* FIROptions.m */; };
-		E7A5543C0F8FB7D259DA354622A1C965 /* Pods-Pinterest3Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD73E594907727A596FBC6B67D72472F /* Pods-Pinterest3Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6ED2EB3A7ACDFDEE41186E2F9C59DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */; };
+		E7A5543C0F8FB7D259DA354622A1C965 /* Pods-Pinterest3Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3B8BF8647C1479BE1D1D51A66FFCCD /* Pods-Pinterest3Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8C0A0E2222FF021FE0174A246F9AD21 /* FIRAppAssociationRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5E9A532E3397C6D9E8A8748225F432 /* FIRAppAssociationRegistration.m */; };
 		EAAC31E35767E4527322215E77F500CB /* GULAppDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = A64BA0AEBE769EEEF3DA2F59674BD177 /* GULAppDelegateSwizzler.m */; };
-		EDC2EA726252455DB0C4586B64B84BAF /* Pods-Pinterest3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5819626F8BA8395659D98C88CE5FA813 /* Pods-Pinterest3-dummy.m */; };
 		F0DD6165CFF72F6AC7EB24BB0F81F59A /* FIRBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 170AAE114E8CB4B216DF5E59968A7461 /* FIRBundleUtil.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F9F2828D09A41F9367A8E4D678439DFD /* FIRComponentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F408173ABC8C83C88EA647E85CCC1 /* FIRComponentType.m */; };
 		FA4879EE891E4376D1CB122873A0D774 /* FIROptionsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 181996F092D5264D9D51818A26AAE6E7 /* FIROptionsInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -158,19 +158,26 @@
 			remoteGlobalIDString = 01B53B6A43CBD6D4022A361BBFCCE665;
 			remoteInfo = FirebaseCore;
 		};
-		2038F98EAE80FFE1E71A962F8986158E /* PBXContainerItemProxy */ = {
+		1932B45D404E38BA3B412128A2E02121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9A2B7F6350AE8AB9AAFF5A9395AD63C;
-			remoteInfo = GoogleUtilities;
+			remoteGlobalIDString = 01B53B6A43CBD6D4022A361BBFCCE665;
+			remoteInfo = FirebaseCore;
 		};
-		2402D8D6C5023C5C4308C4EE036F433A /* PBXContainerItemProxy */ = {
+		3392A1E5BD6F69C9DB7E5C3CB045D366 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 232D00D8ED7797390FB38004DE01723B;
-			remoteInfo = FirebaseAnalytics;
+			remoteGlobalIDString = 57B9E0A892EAB5C13D4AE7D4B1DE0C16;
+			remoteInfo = GoogleAppMeasurement;
+		};
+		3D810F3E87428511601000AA963CE0E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23CBEADD6D687606394B9B3D6AB6C4F;
+			remoteInfo = "Pods-Pinterest3";
 		};
 		455009ED9ED8F59E3D7880EA52A66B11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -185,20 +192,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D9A2B7F6350AE8AB9AAFF5A9395AD63C;
 			remoteInfo = GoogleUtilities;
-		};
-		4DAD2B904FBA0E79E6400F4E34749CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57B9E0A892EAB5C13D4AE7D4B1DE0C16;
-			remoteInfo = GoogleAppMeasurement;
-		};
-		4EF5D47D4DA22CB3E3B74594A0652E47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E93C48A48FB03EA19C4F756B97B5F1D3;
-			remoteInfo = nanopb;
 		};
 		53E2A1BD19729C2293AB46582C686251 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -221,12 +214,19 @@
 			remoteGlobalIDString = D9A2B7F6350AE8AB9AAFF5A9395AD63C;
 			remoteInfo = GoogleUtilities;
 		};
-		5C943A47AC2062AC793AB320542DC426 /* PBXContainerItemProxy */ = {
+		5C7EBD613B8EFDE69CC40640A3C6B602 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 799B29F9D6DCE28B98CC259440382F20;
 			remoteInfo = Firebase;
+		};
+		628949C9D220985C53B640B228966A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6A9BF574C3488966C92C6A9B93CA8C;
+			remoteInfo = FirebaseInstanceID;
 		};
 		7AEA5761B26CAEF1A0C0E82599059DA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -235,12 +235,26 @@
 			remoteGlobalIDString = 232D00D8ED7797390FB38004DE01723B;
 			remoteInfo = FirebaseAnalytics;
 		};
-		A5EF311EF7FDD91866660519862AFA2A /* PBXContainerItemProxy */ = {
+		8065B9DBEAE9ADB9EE330F56E954ABC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF1990A82FD2A44988FD2D68507A2E14;
-			remoteInfo = "Pods-Pinterest3";
+			remoteGlobalIDString = D9A2B7F6350AE8AB9AAFF5A9395AD63C;
+			remoteInfo = GoogleUtilities;
+		};
+		89B7DFA5EE0CCBBF7FED556ECBAD09EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232D00D8ED7797390FB38004DE01723B;
+			remoteInfo = FirebaseAnalytics;
+		};
+		B5437D04271EF5C54A4F5A472C676F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93C48A48FB03EA19C4F756B97B5F1D3;
+			remoteInfo = nanopb;
 		};
 		BBDC7C661CA5567D3925BC0747CAAEC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -263,20 +277,6 @@
 			remoteGlobalIDString = 3C6A9BF574C3488966C92C6A9B93CA8C;
 			remoteInfo = FirebaseInstanceID;
 		};
-		D163DC30211BC172457E1A48722A5B29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C6A9BF574C3488966C92C6A9B93CA8C;
-			remoteInfo = FirebaseInstanceID;
-		};
-		DA9B9C78536659910C0069C2A87FBA2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01B53B6A43CBD6D4022A361BBFCCE665;
-			remoteInfo = FirebaseCore;
-		};
 		DF12C5D7BB68C2724D2F39A531F2A52A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -288,7 +288,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF1990A82FD2A44988FD2D68507A2E14;
+			remoteGlobalIDString = F23CBEADD6D687606394B9B3D6AB6C4F;
 			remoteInfo = "Pods-Pinterest3";
 		};
 		F6A14184DE3C02C257A7298719E4FD9B /* PBXContainerItemProxy */ = {
@@ -303,16 +303,17 @@
 /* Begin PBXFileReference section */
 		00562C5560AB7E5022A64A29A8ACDBF2 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		00F1D71D7F9C5C41D02BE83764DAC384 /* FIRApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRApp.m; path = Firebase/Core/FIRApp.m; sourceTree = "<group>"; };
+		047CE30855BF6AAB7D1B514B9D9C8191 /* Pods-Pinterest3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3.modulemap"; sourceTree = "<group>"; };
 		065A18F134876D7165A489F366ACA06C /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
 		07CCA94FF4846B4FAC40303142690174 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
 		099602E95CC02BDF479BAE577F2E1E33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		09E26CB6317662F12DE14D6116246BB9 /* FIRLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRLogger.m; path = Firebase/Core/FIRLogger.m; sourceTree = "<group>"; };
+		0B739911C5BFBBC82023830456A49C6D /* Pods-Pinterest3Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3Tests.modulemap"; sourceTree = "<group>"; };
 		0B8D624D37F8BE8E758A16BC1A7FD077 /* GoogleAppMeasurement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.xcconfig; sourceTree = "<group>"; };
-		0CC30002C538124D722F10A698972CAC /* Pods-Pinterest3Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3Tests.modulemap"; sourceTree = "<group>"; };
+		0C126EC92683B6E2228C52D9F167C981 /* Pods-Pinterest3UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3UITests-umbrella.h"; sourceTree = "<group>"; };
 		0D232F9DD71A330C0DF5BB0AA7CFCE89 /* GULSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSwizzler.m; path = GoogleUtilities/MethodSwizzler/GULSwizzler.m; sourceTree = "<group>"; };
 		0DC27C8353D28E01D26AD1BC5F02B5DD /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
 		0E2AE12E6A3C48387E321C73594553F0 /* FIRComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponent.m; path = Firebase/Core/FIRComponent.m; sourceTree = "<group>"; };
-		0FB91B29991D7C95C0C61038646EFB07 /* Pods-Pinterest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3.release.xcconfig"; sourceTree = "<group>"; };
 		13C222449551DF45F83632030D9BEC1D /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
 		14F22C37ED1561AAF1C0CEF611C7387E /* FIRComponentContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentContainer.m; path = Firebase/Core/FIRComponentContainer.m; sourceTree = "<group>"; };
 		15EEDEA086FB685E53B702BB8A397980 /* GULAppDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h; sourceTree = "<group>"; };
@@ -320,8 +321,9 @@
 		170AAE114E8CB4B216DF5E59968A7461 /* FIRBundleUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRBundleUtil.h; path = Firebase/Core/Private/FIRBundleUtil.h; sourceTree = "<group>"; };
 		181996F092D5264D9D51818A26AAE6E7 /* FIROptionsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptionsInternal.h; path = Firebase/Core/Private/FIROptionsInternal.h; sourceTree = "<group>"; };
 		1956846777A42C126FB583C8F8E924F7 /* Pods_Pinterest3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pinterest3UITests.framework; path = "Pods-Pinterest3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19B23D6481DCE4374396F5AC8173B525 /* Pods-Pinterest3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B08539C3496DDA4B1C01B6270BB814A /* FirebaseCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCore-umbrella.h"; sourceTree = "<group>"; };
+		1E3B8BF8647C1479BE1D1D51A66FFCCD /* Pods-Pinterest3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3Tests-umbrella.h"; sourceTree = "<group>"; };
+		21A4002DC1F55D96A3AA31B0623BB60E /* Pods-Pinterest3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		222735A5CC9306A16C21EBCF41116319 /* FIRDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDependency.h; path = Firebase/Core/Private/FIRDependency.h; sourceTree = "<group>"; };
 		22BDD176B16D91D5B716627EA1CF60CF /* GULUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULUserDefaults.h; path = GoogleUtilities/UserDefaults/Private/GULUserDefaults.h; sourceTree = "<group>"; };
 		24A82D15B14A4CB1AA3C17E0F085B945 /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Private/GULNetworkConstants.h; sourceTree = "<group>"; };
@@ -330,25 +332,24 @@
 		29F914602F7BE7551C0A095FAFB327B7 /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
 		2A62F5DEA813F07D663C4B01BE3FDEA0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2BA133040BA232ECD24182D146200877 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BA4EB08A479D501F95D7EC11FA9B434 /* Pods-Pinterest3UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3397C8A023026304429172A86C288334 /* Pods-Pinterest3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3-dummy.m"; sourceTree = "<group>"; };
 		36FB23741061E2AA2AC51CFD2E98742C /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		3A579DD7DF6B6354BB17790BB1C5944B /* Pods-Pinterest3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B85F9C6890C9E73983DE553961FB1FB /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = Firebase/Core/Private/FIRComponent.h; sourceTree = "<group>"; };
 		3CF9EB19AB2AE9671F73ED6746B03A13 /* FIRDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDependency.m; path = Firebase/Core/FIRDependency.m; sourceTree = "<group>"; };
-		3F8E14C3400EB9D3859585A8E96AB72F /* Pods-Pinterest3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3-acknowledgements.markdown"; sourceTree = "<group>"; };
-		40AB42B66A09AE67623DADFE25AF8566 /* Pods-Pinterest3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		41B26F4BAA77D1B86F2436D17B4E918F /* Pods_Pinterest3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pinterest3Tests.framework; path = "Pods-Pinterest3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441E9B0F93EECEBC61F8C784F8239F2C /* GoogleUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilities.modulemap; sourceTree = "<group>"; };
-		45658C376276C651386369EA03B7E87F /* Pods-Pinterest3UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pinterest3UITests-frameworks.sh"; sourceTree = "<group>"; };
+		497FBD3041B3A7BD588DB4C966189CC6 /* Pods-Pinterest3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		49807137614F587C916C1762045353B2 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		49B537718E77C5B4C3153132EABAFC7B /* Pods-Pinterest3UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B6DF7B04A94731EAC8B57D38E3F8372 /* Pods-Pinterest3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D7AB718ECF55DC5C60987443BC2B272 /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Private/GULNetwork.h; sourceTree = "<group>"; };
 		5091EB612F9FA9B1ADEEBBEF6A584C28 /* FIROptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIROptions.m; path = Firebase/Core/FIROptions.m; sourceTree = "<group>"; };
 		52812248C1325642AA87531D13EA2538 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
-		52F15658EDA17230C595313323D8302A /* Pods-Pinterest3UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3UITests.modulemap"; sourceTree = "<group>"; };
 		54B1C0E3F614A2B8183278475BB007D8 /* FirebaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseCore-dummy.m"; sourceTree = "<group>"; };
-		5819626F8BA8395659D98C88CE5FA813 /* Pods-Pinterest3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3-dummy.m"; sourceTree = "<group>"; };
+		580670096A011CDD52D940ED51506803 /* Pods-Pinterest3UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3UITests-Info.plist"; sourceTree = "<group>"; };
 		599EFCC1E06886B38AECE8FE41C8F7D1 /* GULUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULUserDefaults.m; path = GoogleUtilities/UserDefaults/GULUserDefaults.m; sourceTree = "<group>"; };
 		5BB359FBFA7134A50D2F2AFFAC85A046 /* FIRVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVersion.h; path = Firebase/Core/Private/FIRVersion.h; sourceTree = "<group>"; };
-		5C21424158EF8204FD5FF0E6FBB06E28 /* Pods-Pinterest3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3-umbrella.h"; sourceTree = "<group>"; };
 		60A0D475FDA5F862C8852D3ABD7589CD /* FIRErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRErrorCode.h; path = Firebase/Core/Private/FIRErrorCode.h; sourceTree = "<group>"; };
 		61E98ECC78D182431BF45074FE9AD948 /* FIRApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = Firebase/Core/Public/FIRApp.h; sourceTree = "<group>"; };
 		62B62EFF1897758AC88032FD6EDCEBAA /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
@@ -357,13 +358,15 @@
 		65C729C07CE46F89C80B5413DBEEC5C0 /* FirebaseInstanceID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseInstanceID.xcconfig; sourceTree = "<group>"; };
 		65D9DC3E8B1EE022BB13E7DAE0A8A60D /* FIRAppInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAppInternal.h; path = Firebase/Core/Private/FIRAppInternal.h; sourceTree = "<group>"; };
 		66A455CBB6638401D5E8BBA336E1954D /* FirebaseCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FirebaseCore.modulemap; sourceTree = "<group>"; };
-		66ECB2BCEF907E0513DF76291B942766 /* Pods-Pinterest3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3UITests-dummy.m"; sourceTree = "<group>"; };
+		6796C203669FAC206F99D4A42E30FBDE /* Pods-Pinterest3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3-Info.plist"; sourceTree = "<group>"; };
+		67C0C01FD01044D4BD253CCB0363918A /* Pods-Pinterest3Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3Tests-Info.plist"; sourceTree = "<group>"; };
 		688517E7AA55E4DCC336813F9BC6D2F3 /* FIRAnalyticsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAnalyticsConfiguration.h; path = Firebase/Core/Public/FIRAnalyticsConfiguration.h; sourceTree = "<group>"; };
 		6B9B842D0FBA3F67EF5156C045E97B23 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		6E40BA573BDCBA70F407673A632E0F42 /* FIRBundleUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRBundleUtil.m; path = Firebase/Core/FIRBundleUtil.m; sourceTree = "<group>"; };
 		6F40E83A7526CE4D59E2D06B134B0CBC /* FIRVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRVersion.m; path = Firebase/Core/FIRVersion.m; sourceTree = "<group>"; };
 		6FCDADF3221962DBA01A7C88BC1B66D8 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Frameworks/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		710C7933B84A984C539245064124E1AB /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		7A10BEDFAD628E81B0A6425FE1E2A606 /* Pods-Pinterest3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3.debug.xcconfig"; sourceTree = "<group>"; };
 		80C912116B0B970F03CFF5B39817A3F7 /* FIRConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRConfiguration.m; path = Firebase/Core/FIRConfiguration.m; sourceTree = "<group>"; };
 		831BEC522F9CA6ABC0210E39CE2EEACD /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseCore.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85166AC2A4C74E23D9EFF90CB1D8E590 /* FirebaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCore.xcconfig; sourceTree = "<group>"; };
@@ -372,35 +375,34 @@
 		87417861D3F4AE982EFEDBB0B1550A1D /* FirebaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseCore.h; path = Firebase/Core/Public/FirebaseCore.h; sourceTree = "<group>"; };
 		882840F6FFE2661B0D9494DC73DF0290 /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GULLoggerLevel.h; sourceTree = "<group>"; };
 		88F0D72DFB010FDF5DCCBAD5CB67B640 /* FirebaseAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseAnalytics.xcconfig; sourceTree = "<group>"; };
+		88F40ADCB49B0EE4B8A28FE8A31C1BAD /* Pods-Pinterest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3.release.xcconfig"; sourceTree = "<group>"; };
 		8947857D98E90318A6F2758E3CF4898E /* GoogleUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-prefix.pch"; sourceTree = "<group>"; };
 		8B16B5793BA0CFE8C57800D5D3031EB8 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
 		8DA89B8CEA9F0B91473E419796154EC9 /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
 		922F7404DA72D40195356E301809FB79 /* GULMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULMutableDictionary.h; path = GoogleUtilities/Network/Private/GULMutableDictionary.h; sourceTree = "<group>"; };
+		978C302B8CFB7ADC2C5D5892CD37F4E9 /* Pods-Pinterest3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		97BA6DBFA330094FFD37B7864400ACC5 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F3B2DDBCB54F984B6AFC5968771E90 /* Pods-Pinterest3UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3UITests.modulemap"; sourceTree = "<group>"; };
 		9819A32A6E0A25FB33ABC7D102528C3C /* Firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.xcconfig; sourceTree = "<group>"; };
 		998FDA1BF0F1C639A8E96867E15CCB37 /* GULNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULNSData+zlib.h"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.h"; sourceTree = "<group>"; };
 		9A4BB3D8AA320266AAFABC80E6FA4DD7 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		9AAC158D52D411247444C32D5D7E0357 /* FIRAppAssociationRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAppAssociationRegistration.h; path = Firebase/Core/Private/FIRAppAssociationRegistration.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6B34DE5E5CA99741C88BF3F74084E5 /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
-		A179C936C2858615A90DC103AAA6573F /* Pods-Pinterest3UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3UITests-Info.plist"; sourceTree = "<group>"; };
 		A23DB76A098825EA1DC9A025FEFB6059 /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = Firebase/Core/Private/FIRLogger.h; sourceTree = "<group>"; };
-		A250208432FBE63F16DAD4B9844DAE1E /* Pods-Pinterest3UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A28FE6F7C29AA3320231BADCAFE14FFA /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Private/GULLogger.h; sourceTree = "<group>"; };
 		A44C1E0A5B5BDCD5210B257D8641FD4E /* Pods_Pinterest3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pinterest3.framework; path = "Pods-Pinterest3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5439B28273FD3874934A0AE84417125 /* nanopb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "nanopb-Info.plist"; sourceTree = "<group>"; };
 		A64BA0AEBE769EEEF3DA2F59674BD177 /* GULAppDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppDelegateSwizzler.m; path = GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m; sourceTree = "<group>"; };
 		A68F408173ABC8C83C88EA647E85CCC1 /* FIRComponentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentType.m; path = Firebase/Core/FIRComponentType.m; sourceTree = "<group>"; };
 		A8C49910BA786DCCBCFBD6CF2BD3B5FF /* FIRComponentContainerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainerInternal.h; path = Firebase/Core/Private/FIRComponentContainerInternal.h; sourceTree = "<group>"; };
+		AAAFA50F44D5C7C4F5B5DD9D230E415A /* Pods-Pinterest3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6B8594DFC6E9AA017FC96D4EC130DC5 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FIRAnalyticsConnector.framework; path = Frameworks/FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
-		B70B51B9437D5BAA0F3AEA4B43235EF1 /* Pods-Pinterest3Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3Tests-dummy.m"; sourceTree = "<group>"; };
 		B868388DD3ED55BE9DA7548EF6E3A079 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
-		B9C4DD0304856ECB69E54EB6F7E7376E /* Pods-Pinterest3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BAC811BBF5979EB30AD5C8591EB6B062 /* FIRComponentContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainer.h; path = Firebase/Core/Private/FIRComponentContainer.h; sourceTree = "<group>"; };
 		BB762C7E7D37CB0155BE9D0DC33C97A0 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
 		BC637FADDFE1B7CFA561AA497D3D403B /* GULSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSwizzler.h; path = GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h; sourceTree = "<group>"; };
-		BD73E594907727A596FBC6B67D72472F /* Pods-Pinterest3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3Tests-umbrella.h"; sourceTree = "<group>"; };
-		BDDD8F137EC260A2CF077A76C1FB248A /* Pods-Pinterest3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3-Info.plist"; sourceTree = "<group>"; };
+		C15F856253D18057AD3B535516BEF025 /* Pods-Pinterest3Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3Tests-dummy.m"; sourceTree = "<group>"; };
 		C4E25C0984A68268A9D7195FE75537C6 /* FIRErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRErrors.m; path = Firebase/Core/FIRErrors.m; sourceTree = "<group>"; };
 		C5C50BB2B8477062109FB19F4F876F3F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = CoreOnly/Sources/Firebase.h; sourceTree = "<group>"; };
 		C5F76F12B2A18FE82603372FF7554B8F /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
@@ -411,40 +413,30 @@
 		D28EC2CE5CA4EBC260A584602FF92D5B /* GULOriginalIMPConvenienceMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULOriginalIMPConvenienceMacros.h; path = GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h; sourceTree = "<group>"; };
 		D37D615A94DBDB5EE20E9256BD89074E /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Private/GULReachabilityChecker.h; sourceTree = "<group>"; };
 		D3FF13C10B9F4A4F12853A26432B8FAD /* FIRLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLoggerLevel.h; path = Firebase/Core/Public/FIRLoggerLevel.h; sourceTree = "<group>"; };
-		D5C2E20F06D06E91912BB57B18E1B60E /* Pods-Pinterest3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D7484194005DFCD50F5DE86A5A8BBE67 /* Pods-Pinterest3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3UITests.release.xcconfig"; sourceTree = "<group>"; };
-		D824F1DB8AACD0A2469A0E970F568FF1 /* Pods-Pinterest3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pinterest3.modulemap"; sourceTree = "<group>"; };
 		D8728D6E7887C2737591E07234A8EFFA /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
+		D90FA08D1D5DCF72D2788BF2D4544413 /* Pods-Pinterest3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA2EF8FBCC0560CE684F9C141EFEE16C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		DAE6A9039020055F2B6BE8FD090E0BF9 /* FIRErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRErrors.h; path = Firebase/Core/Private/FIRErrors.h; sourceTree = "<group>"; };
 		DBDFA1AD8D3EF19358015B92025BDCC7 /* GULNetworkURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkURLSession.h; path = GoogleUtilities/Network/Private/GULNetworkURLSession.h; sourceTree = "<group>"; };
 		DD08B05084CD69E308461B74411A4772 /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = Firebase/Core/Private/FIRComponentType.h; sourceTree = "<group>"; };
+		DF98016E1C355E4D4DCDDD3B1E591D3F /* Pods-Pinterest3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3-acknowledgements.plist"; sourceTree = "<group>"; };
 		E06A9A3E9F3118A2102850433EBEC33F /* FIRAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAnalyticsConfiguration.m; path = Firebase/Core/FIRAnalyticsConfiguration.m; sourceTree = "<group>"; };
 		E26B068586786A968DE679626844A2D5 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		E4FA771796A397EADC9FE1AAFA6DFED9 /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
 		E6085420FE01AB6131EF90277E207039 /* GULAppDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		E66DCFE40E11E783B37744161B884A84 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
+		E76425DF335EBBE9ADA8B5C205DDC8D0 /* Pods-Pinterest3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3-umbrella.h"; sourceTree = "<group>"; };
+		E7F89E0BD590FCF64CFEF912AC077E02 /* Pods-Pinterest3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pinterest3-frameworks.sh"; sourceTree = "<group>"; };
 		E97B19021E1E8AF3519C89CB06E46C80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ED1971CFB45D4D65B2BFD2F6A6C3DE6F /* Pods-Pinterest3UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pinterest3UITests-umbrella.h"; sourceTree = "<group>"; };
 		EE5E9A532E3397C6D9E8A8748225F432 /* FIRAppAssociationRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAppAssociationRegistration.m; path = Firebase/Core/FIRAppAssociationRegistration.m; sourceTree = "<group>"; };
-		EEF19EFE72C3E8DDCA41B68B67406A94 /* Pods-Pinterest3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F090E899673B71186BCC8A73C60706FD /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
-		F2679DF49653DB3A411B44031486527C /* Pods-Pinterest3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3.debug.xcconfig"; sourceTree = "<group>"; };
-		F7016BD6BCC3D1EE9904A10320FF797B /* Pods-Pinterest3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pinterest3Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FCC0E76E9757680BAFDAD80BFECAAB47 /* Pods-Pinterest3Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pinterest3Tests-Info.plist"; sourceTree = "<group>"; };
+		F1C0AC022FD12E69EB03A3FD30BD471E /* Pods-Pinterest3UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pinterest3UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3DB49B0F5C3BC8C46FDF048A1D6EDDD /* Pods-Pinterest3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pinterest3UITests-dummy.m"; sourceTree = "<group>"; };
 		FD012EE9D48E199A4629C0E0C7961410 /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
 		FD8DFCC73C922953BE6D270787381FC1 /* FIRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = Firebase/Core/Public/FIRConfiguration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EAB98AC3F63C58B7180EE9A55B22CC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13581D5BE15386197184A7E03D5EA273 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18E8B46930253C826FB953C9E92F96CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,6 +455,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AD829EFF97664A8AABA51042171DAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ED2EB3A7ACDFDEE41186E2F9C59DAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		809F3134E9D05C6B20FDFF5E04521D4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,19 +471,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B798309590E8462151E602A034972BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5470E9908D6EF905C9EFAAFBA87A404A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD6C01A9D3F5BF4D6F5F4588AD3A7E32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5803D830BEAB4B1992945388A716537D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6430FF2B9986A72EF80B48B242C85FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6821FF33AE7145DB92BCCB1191954602 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,22 @@
 				1F34D49F868138AC113B6B8380982805 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08533AA3B0090F02D75700E17B472E23 /* Pods-Pinterest3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				97F3B2DDBCB54F984B6AFC5968771E90 /* Pods-Pinterest3UITests.modulemap */,
+				F1C0AC022FD12E69EB03A3FD30BD471E /* Pods-Pinterest3UITests-acknowledgements.markdown */,
+				49B537718E77C5B4C3153132EABAFC7B /* Pods-Pinterest3UITests-acknowledgements.plist */,
+				F3DB49B0F5C3BC8C46FDF048A1D6EDDD /* Pods-Pinterest3UITests-dummy.m */,
+				580670096A011CDD52D940ED51506803 /* Pods-Pinterest3UITests-Info.plist */,
+				0C126EC92683B6E2228C52D9F167C981 /* Pods-Pinterest3UITests-umbrella.h */,
+				497FBD3041B3A7BD588DB4C966189CC6 /* Pods-Pinterest3UITests.debug.xcconfig */,
+				978C302B8CFB7ADC2C5D5892CD37F4E9 /* Pods-Pinterest3UITests.release.xcconfig */,
+			);
+			name = "Pods-Pinterest3UITests";
+			path = "Target Support Files/Pods-Pinterest3UITests";
 			sourceTree = "<group>";
 		};
 		1F34D49F868138AC113B6B8380982805 /* iOS */ = {
@@ -552,20 +568,14 @@
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
-		2CD25C08774EB24B4CA94EDBD9DEDDF6 /* Pods-Pinterest3 */ = {
+		2CCD7B59883F1D536EA8B086D61002BA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D824F1DB8AACD0A2469A0E970F568FF1 /* Pods-Pinterest3.modulemap */,
-				3F8E14C3400EB9D3859585A8E96AB72F /* Pods-Pinterest3-acknowledgements.markdown */,
-				19B23D6481DCE4374396F5AC8173B525 /* Pods-Pinterest3-acknowledgements.plist */,
-				5819626F8BA8395659D98C88CE5FA813 /* Pods-Pinterest3-dummy.m */,
-				BDDD8F137EC260A2CF077A76C1FB248A /* Pods-Pinterest3-Info.plist */,
-				5C21424158EF8204FD5FF0E6FBB06E28 /* Pods-Pinterest3-umbrella.h */,
-				F2679DF49653DB3A411B44031486527C /* Pods-Pinterest3.debug.xcconfig */,
-				0FB91B29991D7C95C0C61038646EFB07 /* Pods-Pinterest3.release.xcconfig */,
+				A609EC481FEE3C482820D2A387BD710A /* Pods-Pinterest3 */,
+				E4BED1703D6E471A368D16CCE241B441 /* Pods-Pinterest3Tests */,
+				08533AA3B0090F02D75700E17B472E23 /* Pods-Pinterest3UITests */,
 			);
-			name = "Pods-Pinterest3";
-			path = "Target Support Files/Pods-Pinterest3";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3B3CB4E248C71746E4E778DC8EFE68D0 /* FirebaseInstanceID */ = {
@@ -628,23 +638,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		72EEF803B7A64F74F2953B7F2DD1658A /* Pods-Pinterest3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				52F15658EDA17230C595313323D8302A /* Pods-Pinterest3UITests.modulemap */,
-				2BA4EB08A479D501F95D7EC11FA9B434 /* Pods-Pinterest3UITests-acknowledgements.markdown */,
-				A250208432FBE63F16DAD4B9844DAE1E /* Pods-Pinterest3UITests-acknowledgements.plist */,
-				66ECB2BCEF907E0513DF76291B942766 /* Pods-Pinterest3UITests-dummy.m */,
-				45658C376276C651386369EA03B7E87F /* Pods-Pinterest3UITests-frameworks.sh */,
-				A179C936C2858615A90DC103AAA6573F /* Pods-Pinterest3UITests-Info.plist */,
-				ED1971CFB45D4D65B2BFD2F6A6C3DE6F /* Pods-Pinterest3UITests-umbrella.h */,
-				40AB42B66A09AE67623DADFE25AF8566 /* Pods-Pinterest3UITests.debug.xcconfig */,
-				D7484194005DFCD50F5DE86A5A8BBE67 /* Pods-Pinterest3UITests.release.xcconfig */,
-			);
-			name = "Pods-Pinterest3UITests";
-			path = "Target Support Files/Pods-Pinterest3UITests";
-			sourceTree = "<group>";
-		};
 		8378D007C9F1923C0F4B931612573303 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,6 +682,23 @@
 			path = "../Target Support Files/GoogleAppMeasurement";
 			sourceTree = "<group>";
 		};
+		A609EC481FEE3C482820D2A387BD710A /* Pods-Pinterest3 */ = {
+			isa = PBXGroup;
+			children = (
+				047CE30855BF6AAB7D1B514B9D9C8191 /* Pods-Pinterest3.modulemap */,
+				3A579DD7DF6B6354BB17790BB1C5944B /* Pods-Pinterest3-acknowledgements.markdown */,
+				DF98016E1C355E4D4DCDDD3B1E591D3F /* Pods-Pinterest3-acknowledgements.plist */,
+				3397C8A023026304429172A86C288334 /* Pods-Pinterest3-dummy.m */,
+				E7F89E0BD590FCF64CFEF912AC077E02 /* Pods-Pinterest3-frameworks.sh */,
+				6796C203669FAC206F99D4A42E30FBDE /* Pods-Pinterest3-Info.plist */,
+				E76425DF335EBBE9ADA8B5C205DDC8D0 /* Pods-Pinterest3-umbrella.h */,
+				7A10BEDFAD628E81B0A6425FE1E2A606 /* Pods-Pinterest3.debug.xcconfig */,
+				88F40ADCB49B0EE4B8A28FE8A31C1BAD /* Pods-Pinterest3.release.xcconfig */,
+			);
+			name = "Pods-Pinterest3";
+			path = "Target Support Files/Pods-Pinterest3";
+			sourceTree = "<group>";
+		};
 		A6182BC870ADE62F75212A6E30189029 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -721,22 +731,6 @@
 				882840F6FFE2661B0D9494DC73DF0290 /* GULLoggerLevel.h */,
 			);
 			name = Logger;
-			sourceTree = "<group>";
-		};
-		B3382D6A7DD708075EDDF4C6101AE552 /* Pods-Pinterest3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0CC30002C538124D722F10A698972CAC /* Pods-Pinterest3Tests.modulemap */,
-				B9C4DD0304856ECB69E54EB6F7E7376E /* Pods-Pinterest3Tests-acknowledgements.markdown */,
-				D5C2E20F06D06E91912BB57B18E1B60E /* Pods-Pinterest3Tests-acknowledgements.plist */,
-				B70B51B9437D5BAA0F3AEA4B43235EF1 /* Pods-Pinterest3Tests-dummy.m */,
-				FCC0E76E9757680BAFDAD80BFECAAB47 /* Pods-Pinterest3Tests-Info.plist */,
-				BD73E594907727A596FBC6B67D72472F /* Pods-Pinterest3Tests-umbrella.h */,
-				F7016BD6BCC3D1EE9904A10320FF797B /* Pods-Pinterest3Tests.debug.xcconfig */,
-				EEF19EFE72C3E8DDCA41B68B67406A94 /* Pods-Pinterest3Tests.release.xcconfig */,
-			);
-			name = "Pods-Pinterest3Tests";
-			path = "Target Support Files/Pods-Pinterest3Tests";
 			sourceTree = "<group>";
 		};
 		B6B100BEDB1E93E5F544F686F045F66C /* Pods */ = {
@@ -812,7 +806,7 @@
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				B6B100BEDB1E93E5F544F686F045F66C /* Pods */,
 				F1F34CF6A19EBE8F99E18742D36ACC67 /* Products */,
-				E2BFF72896B86DA6870BBDF67274B354 /* Targets Support Files */,
+				2CCD7B59883F1D536EA8B086D61002BA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -875,14 +869,20 @@
 			path = "../Target Support Files/FirebaseAnalytics";
 			sourceTree = "<group>";
 		};
-		E2BFF72896B86DA6870BBDF67274B354 /* Targets Support Files */ = {
+		E4BED1703D6E471A368D16CCE241B441 /* Pods-Pinterest3Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2CD25C08774EB24B4CA94EDBD9DEDDF6 /* Pods-Pinterest3 */,
-				B3382D6A7DD708075EDDF4C6101AE552 /* Pods-Pinterest3Tests */,
-				72EEF803B7A64F74F2953B7F2DD1658A /* Pods-Pinterest3UITests */,
+				0B739911C5BFBBC82023830456A49C6D /* Pods-Pinterest3Tests.modulemap */,
+				21A4002DC1F55D96A3AA31B0623BB60E /* Pods-Pinterest3Tests-acknowledgements.markdown */,
+				D90FA08D1D5DCF72D2788BF2D4544413 /* Pods-Pinterest3Tests-acknowledgements.plist */,
+				C15F856253D18057AD3B535516BEF025 /* Pods-Pinterest3Tests-dummy.m */,
+				67C0C01FD01044D4BD253CCB0363918A /* Pods-Pinterest3Tests-Info.plist */,
+				1E3B8BF8647C1479BE1D1D51A66FFCCD /* Pods-Pinterest3Tests-umbrella.h */,
+				AAAFA50F44D5C7C4F5B5DD9D230E415A /* Pods-Pinterest3Tests.debug.xcconfig */,
+				4B6DF7B04A94731EAC8B57D38E3F8372 /* Pods-Pinterest3Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Pinterest3Tests";
+			path = "Target Support Files/Pods-Pinterest3Tests";
 			sourceTree = "<group>";
 		};
 		EBD6311BDDED8977F38258C502AD9AE9 /* FirebaseAnalytics */ = {
@@ -937,6 +937,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		42283F9ED158EF1B6983EF8C2C740C87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8880F02789D8C43DCCC4A316A3D06F85 /* Pods-Pinterest3UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A06DA7894AF6B831D72DD738462F955 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64111BF1BEA7794ED0DA16B032EAE74D /* Pods-Pinterest3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87C026EB9FF5BAE426AB2D038DE18A0C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -961,14 +977,6 @@
 				7E169F6567DADEB4C0269E64A51E6DA4 /* GULReachabilityMessageCode.h in Headers */,
 				7FE7DA15DFBB03C6F320F4137F0284ED /* GULSwizzler.h in Headers */,
 				06DE8D644B4500C4F25871F5817E9B30 /* GULUserDefaults.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B8D0B01D5943E7B357B1E57A24965EB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0B574ABAB2418EDA8D630286F6BD49C /* Pods-Pinterest3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,14 +1021,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F94CD0CFC64CC7B66F27B07A48E739 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0ADA6C448029F28BE3770807446C346E /* Pods-Pinterest3UITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F803161BB6B41A83303ED52DA7F4EFE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1051,26 +1051,19 @@
 			productReference = 831BEC522F9CA6ABC0210E39CE2EEACD /* FirebaseCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9814A001F3E0009F702BF6EC796446CA /* Pods-Pinterest3UITests */ = {
+		A4DDB65670F3AF0A64C6194294624BCA /* Pods-Pinterest3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 095227B0B79DC0EC07FB059941F3512E /* Build configuration list for PBXNativeTarget "Pods-Pinterest3UITests" */;
+			buildConfigurationList = 60E8FD9C66204519103717D43FC59B3D /* Build configuration list for PBXNativeTarget "Pods-Pinterest3UITests" */;
 			buildPhases = (
-				D1F94CD0CFC64CC7B66F27B07A48E739 /* Headers */,
-				1F9AF48DB7FBA17BC2DE7EE6B06E7665 /* Sources */,
-				0EAB98AC3F63C58B7180EE9A55B22CC9 /* Frameworks */,
-				E6DA051E0D4882A107C373945D3285CF /* Resources */,
+				42283F9ED158EF1B6983EF8C2C740C87 /* Headers */,
+				EE6E7D978934A093E01B003BB8A1AA73 /* Sources */,
+				B798309590E8462151E602A034972BC6 /* Frameworks */,
+				004D10F4F5DFD0A514F9452865E8F074 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDE7FE09AEF974EE2409E03ABAE07C6E /* PBXTargetDependency */,
-				903A426ABA2502D2BFFB960248F7448A /* PBXTargetDependency */,
-				E368CA3D4478E183429848BC63A1BB7B /* PBXTargetDependency */,
-				4BD8F805CC6D25E94022BED954C8E87C /* PBXTargetDependency */,
-				98792B570AAA5B153D2AAB2A04C0D662 /* PBXTargetDependency */,
-				C5FFA9325B598281144DE41B62E31AA1 /* PBXTargetDependency */,
-				90D8E295B27C8FACCC8C36B651975067 /* PBXTargetDependency */,
-				83A31025023B85064E19F560738F063C /* PBXTargetDependency */,
+				4F04C06F9ADAAD02FAC95B8F5B04E193 /* PBXTargetDependency */,
 			);
 			name = "Pods-Pinterest3UITests";
 			productName = "Pods-Pinterest3UITests";
@@ -1132,18 +1125,25 @@
 			productReference = 97BA6DBFA330094FFD37B7864400ACC5 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF1990A82FD2A44988FD2D68507A2E14 /* Pods-Pinterest3 */ = {
+		F23CBEADD6D687606394B9B3D6AB6C4F /* Pods-Pinterest3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15E6860355DCA385AECBADC8CF2E0EF3 /* Build configuration list for PBXNativeTarget "Pods-Pinterest3" */;
+			buildConfigurationList = FE7AB8CBE1EDDCC3E635BD5B9B6A3097 /* Build configuration list for PBXNativeTarget "Pods-Pinterest3" */;
 			buildPhases = (
-				8B8D0B01D5943E7B357B1E57A24965EB /* Headers */,
-				B8C6F659982C3829959FB7F16BE3D1CB /* Sources */,
-				C6430FF2B9986A72EF80B48B242C85FC /* Frameworks */,
-				1F8C343F91E2D30187785A169E6C6BAE /* Resources */,
+				7A06DA7894AF6B831D72DD738462F955 /* Headers */,
+				66C99CFEC03CDC9E55E23BFCE9520BCE /* Sources */,
+				3AD829EFF97664A8AABA51042171DAB8 /* Frameworks */,
+				B67F303A60AF9DD3BE26116E026103A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C5AF77AA4DF1F0AC3E3A09BE7D6260D2 /* PBXTargetDependency */,
+				F101FC627D088F049FF91FF21B556F54 /* PBXTargetDependency */,
+				E3D66838F72B364824CE547EEE73B9F0 /* PBXTargetDependency */,
+				E0415B2973B979CE3631B7B320AB91EE /* PBXTargetDependency */,
+				C867481A03109903ABDFA2E4B282DA64 /* PBXTargetDependency */,
+				FAFDD9D28C8BE5FE56CFEABA2E44AF55 /* PBXTargetDependency */,
+				DEE1404D412E7E4B2CA32A753ECDA510 /* PBXTargetDependency */,
 			);
 			name = "Pods-Pinterest3";
 			productName = "Pods-Pinterest3";
@@ -1178,15 +1178,15 @@
 				57B9E0A892EAB5C13D4AE7D4B1DE0C16 /* GoogleAppMeasurement */,
 				D9A2B7F6350AE8AB9AAFF5A9395AD63C /* GoogleUtilities */,
 				E93C48A48FB03EA19C4F756B97B5F1D3 /* nanopb */,
-				FF1990A82FD2A44988FD2D68507A2E14 /* Pods-Pinterest3 */,
+				F23CBEADD6D687606394B9B3D6AB6C4F /* Pods-Pinterest3 */,
 				B252E492CC03650CF8F941C67861674A /* Pods-Pinterest3Tests */,
-				9814A001F3E0009F702BF6EC796446CA /* Pods-Pinterest3UITests */,
+				A4DDB65670F3AF0A64C6194294624BCA /* Pods-Pinterest3UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F8C343F91E2D30187785A169E6C6BAE /* Resources */ = {
+		004D10F4F5DFD0A514F9452865E8F074 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1207,6 +1207,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B67F303A60AF9DD3BE26116E026103A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAD5E7CBF36881EC0AA5D9EF5D47B6F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1215,13 +1222,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C7AA1C6CBDCA2488533EB20B524FF83F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6DA051E0D4882A107C373945D3285CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1250,14 +1250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F9AF48DB7FBA17BC2DE7EE6B06E7665 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7ECCABAE2F3BD0FD5701CA0936C50EC0 /* Pods-Pinterest3UITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		204045C2E2F5F5BF79FC8D5E7EE930C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1276,6 +1268,14 @@
 				2057D78059437EADF8E509FB3A4E3463 /* FIRLogger.m in Sources */,
 				E6E306527999E035678E03FCFB44F5E6 /* FIROptions.m in Sources */,
 				5E638B27DC537F86FE14FD7E312A350E /* FIRVersion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C99CFEC03CDC9E55E23BFCE9520BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09FDB7EA2C05A8A7F6C6F7B2800C10 /* Pods-Pinterest3-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1298,11 +1298,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C6F659982C3829959FB7F16BE3D1CB /* Sources */ = {
+		EE6E7D978934A093E01B003BB8A1AA73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC2EA726252455DB0C4586B64B84BAF /* Pods-Pinterest3-dummy.m in Sources */,
+				34369BC4ECA170C9EA2DA8CBBFAF04B6 /* Pods-Pinterest3UITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1327,11 +1327,11 @@
 			target = E93C48A48FB03EA19C4F756B97B5F1D3 /* nanopb */;
 			targetProxy = C6318E60C9E68C5F678F7ADDF357AED8 /* PBXContainerItemProxy */;
 		};
-		4BD8F805CC6D25E94022BED954C8E87C /* PBXTargetDependency */ = {
+		4F04C06F9ADAAD02FAC95B8F5B04E193 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FirebaseInstanceID;
-			target = 3C6A9BF574C3488966C92C6A9B93CA8C /* FirebaseInstanceID */;
-			targetProxy = D163DC30211BC172457E1A48722A5B29 /* PBXContainerItemProxy */;
+			name = "Pods-Pinterest3";
+			target = F23CBEADD6D687606394B9B3D6AB6C4F /* Pods-Pinterest3 */;
+			targetProxy = 3D810F3E87428511601000AA963CE0E0 /* PBXContainerItemProxy */;
 		};
 		7AEC0D15EF11C1415A94D769184AD812 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1348,32 +1348,8 @@
 		8037FC3AF8D6FE5D66618227B95F64FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Pinterest3";
-			target = FF1990A82FD2A44988FD2D68507A2E14 /* Pods-Pinterest3 */;
+			target = F23CBEADD6D687606394B9B3D6AB6C4F /* Pods-Pinterest3 */;
 			targetProxy = F39B8F950115116DF0BE6C7C5E427951 /* PBXContainerItemProxy */;
-		};
-		83A31025023B85064E19F560738F063C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanopb;
-			target = E93C48A48FB03EA19C4F756B97B5F1D3 /* nanopb */;
-			targetProxy = 4EF5D47D4DA22CB3E3B74594A0652E47 /* PBXContainerItemProxy */;
-		};
-		903A426ABA2502D2BFFB960248F7448A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseAnalytics;
-			target = 232D00D8ED7797390FB38004DE01723B /* FirebaseAnalytics */;
-			targetProxy = 2402D8D6C5023C5C4308C4EE036F433A /* PBXContainerItemProxy */;
-		};
-		90D8E295B27C8FACCC8C36B651975067 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Pinterest3";
-			target = FF1990A82FD2A44988FD2D68507A2E14 /* Pods-Pinterest3 */;
-			targetProxy = A5EF311EF7FDD91866660519862AFA2A /* PBXContainerItemProxy */;
-		};
-		98792B570AAA5B153D2AAB2A04C0D662 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleAppMeasurement;
-			target = 57B9E0A892EAB5C13D4AE7D4B1DE0C16 /* GoogleAppMeasurement */;
-			targetProxy = 4DAD2B904FBA0E79E6400F4E34749CF2 /* PBXContainerItemProxy */;
 		};
 		9C390500C3C568F59A8589C455BFF4D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1405,17 +1381,17 @@
 			target = D9A2B7F6350AE8AB9AAFF5A9395AD63C /* GoogleUtilities */;
 			targetProxy = 54A7BA384E80D5DB0269C827877FE175 /* PBXContainerItemProxy */;
 		};
-		BDE7FE09AEF974EE2409E03ABAE07C6E /* PBXTargetDependency */ = {
+		C5AF77AA4DF1F0AC3E3A09BE7D6260D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Firebase;
 			target = 799B29F9D6DCE28B98CC259440382F20 /* Firebase */;
-			targetProxy = 5C943A47AC2062AC793AB320542DC426 /* PBXContainerItemProxy */;
+			targetProxy = 5C7EBD613B8EFDE69CC40640A3C6B602 /* PBXContainerItemProxy */;
 		};
-		C5FFA9325B598281144DE41B62E31AA1 /* PBXTargetDependency */ = {
+		C867481A03109903ABDFA2E4B282DA64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GoogleUtilities;
-			target = D9A2B7F6350AE8AB9AAFF5A9395AD63C /* GoogleUtilities */;
-			targetProxy = 2038F98EAE80FFE1E71A962F8986158E /* PBXContainerItemProxy */;
+			name = GoogleAppMeasurement;
+			target = 57B9E0A892EAB5C13D4AE7D4B1DE0C16 /* GoogleAppMeasurement */;
+			targetProxy = 3392A1E5BD6F69C9DB7E5C3CB045D366 /* PBXContainerItemProxy */;
 		};
 		CA20CC0CC8595F02B384BCF03BBE9452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1429,11 +1405,35 @@
 			target = 01B53B6A43CBD6D4022A361BBFCCE665 /* FirebaseCore */;
 			targetProxy = F6A14184DE3C02C257A7298719E4FD9B /* PBXContainerItemProxy */;
 		};
-		E368CA3D4478E183429848BC63A1BB7B /* PBXTargetDependency */ = {
+		DEE1404D412E7E4B2CA32A753ECDA510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = E93C48A48FB03EA19C4F756B97B5F1D3 /* nanopb */;
+			targetProxy = B5437D04271EF5C54A4F5A472C676F94 /* PBXContainerItemProxy */;
+		};
+		E0415B2973B979CE3631B7B320AB91EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseInstanceID;
+			target = 3C6A9BF574C3488966C92C6A9B93CA8C /* FirebaseInstanceID */;
+			targetProxy = 628949C9D220985C53B640B228966A8C /* PBXContainerItemProxy */;
+		};
+		E3D66838F72B364824CE547EEE73B9F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FirebaseCore;
 			target = 01B53B6A43CBD6D4022A361BBFCCE665 /* FirebaseCore */;
-			targetProxy = DA9B9C78536659910C0069C2A87FBA2F /* PBXContainerItemProxy */;
+			targetProxy = 1932B45D404E38BA3B412128A2E02121 /* PBXContainerItemProxy */;
+		};
+		F101FC627D088F049FF91FF21B556F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FirebaseAnalytics;
+			target = 232D00D8ED7797390FB38004DE01723B /* FirebaseAnalytics */;
+			targetProxy = 89B7DFA5EE0CCBBF7FED556ECBAD09EB /* PBXContainerItemProxy */;
+		};
+		FAFDD9D28C8BE5FE56CFEABA2E44AF55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = D9A2B7F6350AE8AB9AAFF5A9395AD63C /* GoogleUtilities */;
+			targetProxy = 8065B9DBEAE9ADB9EE330F56E954ABC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1489,47 +1489,25 @@
 			};
 			name = Debug;
 		};
-		08E0A5FCF79AF91F13F503AF34E51FD3 /* Debug */ = {
+		16393E98E7D33B078F35DAD0BF562519 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2679DF49653DB3A411B44031486527C /* Pods-Pinterest3.debug.xcconfig */;
+			baseConfigurationReference = 88F0D72DFB010FDF5DCCBAD5CB67B640 /* FirebaseAnalytics.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Pinterest3/Pods-Pinterest3-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Pinterest3/Pods-Pinterest3.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		12DFBF17EEB330703A01A8269232797A /* Debug */ = {
+		2678EC4F7AC9CEE0D0D0B053AA5CD393 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40AB42B66A09AE67623DADFE25AF8566 /* Pods-Pinterest3UITests.debug.xcconfig */;
+			baseConfigurationReference = 978C302B8CFB7ADC2C5D5892CD37F4E9 /* Pods-Pinterest3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1560,26 +1538,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		16393E98E7D33B078F35DAD0BF562519 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F0D72DFB010FDF5DCCBAD5CB67B640 /* FirebaseAnalytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+			name = Release;
 		};
 		31667BB5CFC7B8D4C8E24E1A05DE6F20 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1720,9 +1683,9 @@
 			};
 			name = Release;
 		};
-		6CB0287BA437ED2A5CEDC72E224C1EF1 /* Release */ = {
+		6D9CC9B1B28086EAA068AAED11E92EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB91B29991D7C95C0C61038646EFB07 /* Pods-Pinterest3.release.xcconfig */;
+			baseConfigurationReference = 88F40ADCB49B0EE4B8A28FE8A31C1BAD /* Pods-Pinterest3.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1761,7 +1724,7 @@
 		};
 		99C4290B006976CD68F80E53318B066E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF19EFE72C3E8DDCA41B68B67406A94 /* Pods-Pinterest3Tests.release.xcconfig */;
+			baseConfigurationReference = 4B6DF7B04A94731EAC8B57D38E3F8372 /* Pods-Pinterest3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1875,6 +1838,82 @@
 			};
 			name = Release;
 		};
+		B4BF4E003259158004249D0A1CD70252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497FBD3041B3A7BD588DB4C966189CC6 /* Pods-Pinterest3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B505AEE7F1CD71E98601E269D2C684B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10BEDFAD628E81B0A6425FE1E2A606 /* Pods-Pinterest3.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pinterest3/Pods-Pinterest3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pinterest3/Pods-Pinterest3.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1941,7 +1980,7 @@
 		};
 		CB083AD759570D40310F52B8BEE2814F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7016BD6BCC3D1EE9904A10320FF797B /* Pods-Pinterest3Tests.debug.xcconfig */;
+			baseConfigurationReference = AAAFA50F44D5C7C4F5B5DD9D230E415A /* Pods-Pinterest3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2099,66 +2138,9 @@
 			};
 			name = Release;
 		};
-		F88A7F8B9990B69B7F5C4A61FC6FCC08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7484194005DFCD50F5DE86A5A8BBE67 /* Pods-Pinterest3UITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		095227B0B79DC0EC07FB059941F3512E /* Build configuration list for PBXNativeTarget "Pods-Pinterest3UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12DFBF17EEB330703A01A8269232797A /* Debug */,
-				F88A7F8B9990B69B7F5C4A61FC6FCC08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15E6860355DCA385AECBADC8CF2E0EF3 /* Build configuration list for PBXNativeTarget "Pods-Pinterest3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08E0A5FCF79AF91F13F503AF34E51FD3 /* Debug */,
-				6CB0287BA437ED2A5CEDC72E224C1EF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		17528847ED7361712D5774B3F57F412E /* Build configuration list for PBXAggregateTarget "FirebaseInstanceID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2182,6 +2164,15 @@
 			buildConfigurations = (
 				C1391485F05B41BD35738A433056B7FA /* Debug */,
 				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E8FD9C66204519103717D43FC59B3D /* Build configuration list for PBXNativeTarget "Pods-Pinterest3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF4E003259158004249D0A1CD70252 /* Debug */,
+				2678EC4F7AC9CEE0D0D0B053AA5CD393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2236,6 +2227,15 @@
 			buildConfigurations = (
 				16393E98E7D33B078F35DAD0BF562519 /* Debug */,
 				31667BB5CFC7B8D4C8E24E1A05DE6F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7AB8CBE1EDDCC3E635BD5B9B6A3097 /* Build configuration list for PBXNativeTarget "Pods-Pinterest3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505AEE7F1CD71E98601E269D2C684B4 /* Debug */,
+				6D9CC9B1B28086EAA068AAED11E92EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
