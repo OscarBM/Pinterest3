@@ -140,11 +140,17 @@ class ViewController: UIViewController {
      var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
      let values = ["name" :name, "email": email]
      let usersRef = ref.child("users").child(uid)
+            
+            //usersRef.setValue(values)
+            
      usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
      if  error != nil {
+        print("esto salio muy mal")
      print(error)
      }
      })
+            
+            //
      
      // successfully included
      print("Saved user successfully into our database")
