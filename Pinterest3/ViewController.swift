@@ -111,51 +111,54 @@ class ViewController: UIViewController {
         print("El contrasena es: \(passwordTextField.text)")    }*/
     
     
-     @objc func handleButton(){//Comentaste el codigo porque no jalaba
-     guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
-     print("Not valid")
-     return
-     }
+     @objc func handleButton(){
+        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
+                print("Not valid")
+                return
+            }
         
-        /*static func signUp(username: String, email: String, User: String, Phone: String ,password: String, imageData: Data, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
-         Auth.auth().createUser(withEmail: email, password: password, completion: { user, error in
-         if error != nil {*/
-        var data:AuthDataResultCallback
-        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            //Cannot convert value of type '(AuthDataResultCallback?, _) -> ()' (aka '(Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>, _) -> ()') to expected argument type 'AuthDataResultCallback?' (aka 'Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>')
-            //var user = data.user
-            var user2 = user?.user
-            if error != nil {
-     print("ira esto")
-                print(error)
-     return
-     }
     
-     guard let uid = user2?.uid else {
-        print("algo salio mal")
-     return
-     }
+            var data:AuthDataResultCallback
+            Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
+            
+                var user2 = user?.user
+                if error != nil {
+                    print("ira esto")
+                    print(error)
+                    return
+                }
+    
+                guard let uid = user2?.uid else {
+                    print("algo salio mal")
+                    return
+                }
      
-     //sucessfully
-     var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
-     let values = ["name" :name, "email": email]
-     let usersRef = ref.child("users").child(uid)
+                //sucessfully
+                var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
+                let values = ["name" :name, "email": email]
+                let usersRef = ref.child("users").child(uid)
             
-            //usersRef.setValue(values)
-            
-     usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
-     if  error != nil {
-        print("esto salio muy mal")
-     print(error)
-     }
-     })
-            
-            //
+                usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
+                    if  error != nil {
+                        print("esto salio muy mal")
+                        print(error)
+                    }
+                })
+                
+                
+                //Incluir mensaje dummy
+                let mensaje = ["mensaje" : "soy un mensaje dummy"]
+                let mensajeRef = ref.child("messages").child(uid)
+                mensajeRef.updateChildValues(mensaje)
+
      
-     // successfully included
-     print("Saved user successfully into our database")
-        print("El correo es: \(self.emailTextField.text)")
-        print("El contrasena es: \(self.passwordTextField.text)")      }
+                // successfully included
+                print("Saved user successfully into our database")
+                print("El nombre es: \(self.nameTextField.text)")
+                print("El correo es: \(self.emailTextField.text)")
+                print("El contrasena es: \(self.passwordTextField.text)")
+                
+            }
      }
     
 }
