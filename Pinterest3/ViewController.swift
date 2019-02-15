@@ -117,7 +117,9 @@ class ViewController: UIViewController {
      return
      }
         Auth.auth().createUser(withEmail: email, password: password) { (data:AuthDataResultCallback?, error) in
-     if error != nil {
+            //Cannot convert value of type '(AuthDataResultCallback?, _) -> ()' (aka '(Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>, _) -> ()') to expected argument type 'AuthDataResultCallback?' (aka 'Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>')
+            var user = data.user
+            if error != nil {
      print(error)
      return
      }
