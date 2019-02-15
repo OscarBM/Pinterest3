@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(r: 61, g: 91, b: 151)
-        var padding1:CGFloat = 10
+        let padding1:CGFloat = 10
         
         //add subview
         view.addSubview(inputContainerView)
@@ -116,25 +116,25 @@ class ViewController: UIViewController {
      print("Not valid")
      return
      }
-     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
+        Auth.auth().createUser(withEmail: email, password: password) { (data:AuthDataResultCallback?, error) in
      if error != nil {
      print(error)
      return
      }
-     /*
+     
      guard let uid = user?.uid else {
      return
      }
      
      //sucessfully
-     var ref = Database.database().reference(fromURL: "https://pinterest-7574e.firebaseio.com/")
+     var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
      let values = ["name" :name, "email": email]
      let usersRef = ref.child("users").child(uid)
      usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
      if  error != nil {
      print(error)
      }
-     })*/
+     })
      
      // successfully included
      print("Saved user successfully into our database")
