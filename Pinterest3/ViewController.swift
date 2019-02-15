@@ -116,15 +116,23 @@ class ViewController: UIViewController {
      print("Not valid")
      return
      }
-        Auth.auth().createUser(withEmail: email, password: password) { (data:AuthDataResultCallback?, error) in
+        
+        /*static func signUp(username: String, email: String, User: String, Phone: String ,password: String, imageData: Data, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
+         Auth.auth().createUser(withEmail: email, password: password, completion: { user, error in
+         if error != nil {*/
+        var data:AuthDataResultCallback
+        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             //Cannot convert value of type '(AuthDataResultCallback?, _) -> ()' (aka '(Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>, _) -> ()') to expected argument type 'AuthDataResultCallback?' (aka 'Optional<(Optional<AuthDataResult>, Optional<Error>) -> ()>')
-            var user = data.user
+            //var user = data.user
+            var user2 = user?.user
             if error != nil {
-     print(error)
+     print("ira esto")
+                print(error)
      return
      }
-     
-     guard let uid = user?.uid else {
+    
+     guard let uid = user2?.uid else {
+        print("algo salio mal")
      return
      }
      
