@@ -147,7 +147,7 @@ class ViewController: UIViewController {
                 
                 
                 //Incluir mensaje dummy
-                let mensaje = ["mensaje" : "soy un mensaje dummy"]
+                let mensaje = ["mensaje" : "soy un mensaje dummy", "uid" : uid]
                 let mensajeRef = ref.child("messages").child(uid)
                 mensajeRef.updateChildValues(mensaje)
 
