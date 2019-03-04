@@ -14,48 +14,70 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(r: 61, g: 91, b: 151)
-        let padding1:CGFloat = 10
+        view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
+        //let padding1:CGFloat = 10
         
         //add subview
-        view.addSubview(inputContainerView)
+        view.addSubview(buttonContainerView)
         view.addSubview(firstButton)
-        inputContainerView.addSubview(nameTextField)
-        inputContainerView.addSubview(emailTextField)
-        inputContainerView.addSubview(passwordTextField)
+        
+        buttonContainerView.addSubview(emailButton)
+        buttonContainerView.addSubview(facebookButton)
+        buttonContainerView.addSubview(googleButton)
         
         
         //constraints
         // constraints for input
         
-        inputContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        inputContainerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        inputContainerView.heightAnchor.constraint(equalToConstant: 150).isActive = true
-        inputContainerView.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
+        buttonContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        buttonContainerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        buttonContainerView.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        buttonContainerView.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
         
         
         
-        firstButton.topAnchor.constraint(equalTo: inputContainerView.bottomAnchor, constant: 20).isActive = true
+        firstButton.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor, constant: 20).isActive = true
         firstButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        firstButton.leftAnchor.constraint(equalTo: inputContainerView.leftAnchor).isActive = true
-        firstButton.rightAnchor.constraint(equalTo: inputContainerView.rightAnchor).isActive = true
-        
-        nameTextField.topAnchor.constraint(equalTo: inputContainerView.topAnchor).isActive = true
-        nameTextField.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
-        nameTextField.heightAnchor.constraint(equalTo: inputContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        nameTextField.setLeftPaddingPoints(padding1)//Padding
+        firstButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
+        firstButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
         
         
-        emailTextField.topAnchor.constraint(equalTo: nameTextField.bottomAnchor).isActive = true
-        emailTextField.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
-        emailTextField.heightAnchor.constraint(equalTo: inputContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        emailTextField.setLeftPaddingPoints(padding1)//Padding
         
-        passwordTextField.topAnchor.constraint(equalTo: emailTextField.bottomAnchor).isActive = true
-        passwordTextField.widthAnchor.constraint(equalTo: inputContainerView.widthAnchor).isActive = true
-        passwordTextField.heightAnchor.constraint(equalTo: inputContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        passwordTextField.setLeftPaddingPoints(padding1)//Padding
+        emailButton.topAnchor.constraint(equalTo: buttonContainerView.topAnchor, constant: -10).isActive = true
+        emailButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
+        emailButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        
+        emailButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
+        emailButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        
+        //emailButton.setLeftPaddingPoints(padding1)//Padding
+        
+        
+        facebookButton.topAnchor.constraint(equalTo: emailButton.bottomAnchor, constant: 10).isActive = true
+        facebookButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
+        facebookButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        //facebookButton.setLeftPaddingPoints(padding1)//Padding
+        facebookButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
+        facebookButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        
+        
+        
+        googleButton.topAnchor.constraint(equalTo: facebookButton.bottomAnchor, constant: 10).isActive = true
+        googleButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
+        googleButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        
+        googleButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
+        googleButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        
+        //googleButton.setLeftPaddingPoints(padding1)//Padding
         // Do any additional setup after loading the view, typically from a nib.
+        
+        label1.center = CGPoint(x: 0, y: 285)
+        //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
+        label1.textAlignment = .center
+        label1.text = "Si continuas aceptas la condiciones del servicio y la politica de privacidad"
+        //self.view.addSubview(label1)
+        
     }
     
     
@@ -84,7 +106,7 @@ class ViewController: UIViewController {
         return tf
     }()
     
-    let inputContainerView : UIView =  {
+    let buttonContainerView : UIView =  {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .white
@@ -93,73 +115,106 @@ class ViewController: UIViewController {
         return view
     }()
     
-    lazy var firstButton : UIButton = {
+    lazy var emailButton : UIButton = {
         let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        ub.setTitle("Register", for: .normal)
+        ub.backgroundColor = UIColor(red: 255/255, green: 20/255, blue: 0/255, alpha: 1)
+        ub.setTitle("Continuar con el correo electronico", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
         //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
         ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
         return ub
     }()
     
-    /*
+    lazy var facebookButton : UIButton = {
+        let ub = UIButton()
+        ub.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
+        ub.setTitle("Continuar con Facebook", for: .normal)
+        ub.translatesAutoresizingMaskIntoConstraints = false
+        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
+        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
+        return ub
+    }()
+    
+    lazy var googleButton : UIButton = {
+        let ub = UIButton()
+        ub.backgroundColor = UIColor(red: 30/255, green: 101/255, blue: 161/255, alpha: 1)
+        ub.setTitle("Continuar con Google", for: .normal)
+        ub.translatesAutoresizingMaskIntoConstraints = false
+        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
+        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
+        return ub
+    }()
+    
+    lazy var firstButton : UIButton = {
+        let ub = UIButton()
+        ub.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        ub.setTitleColor(.black, for: .normal)
+        ub.setTitle("Iniciar sesion", for: .normal)
+        ub.translatesAutoresizingMaskIntoConstraints = false
+        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
+        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
+        return ub
+    }()
+    
+    let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+    
+    
+    
+    
     //Estafuncion la metiste TU
     @objc func handleButton(){
-        print("El nombre es: \(nameTextField.text)")
-        print("El correo es: \(emailTextField.text)")
-        print("El contrasena es: \(passwordTextField.text)")    }*/
+        /*print("El nombre es: \(nameTextField.text)")
+         print("El correo es: \(emailTextField.text)")
+         print("El contrasena es: \(passwordTextField.text)") */   }
     
-    
+    /*
      @objc func handleButton(){
-        guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
-                print("Not valid")
-                return
-            }
-        
-    
-            var data:AuthDataResultCallback
-            Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            
-                var user2 = user?.user
-                if error != nil {
-                    print("ira esto")
-                    print(error)
-                    return
-                }
-    
-                guard let uid = user2?.uid else {
-                    print("algo salio mal")
-                    return
-                }
-     
-                //sucessfully
-                var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
-                let values = ["name" :name, "email": email]
-                let usersRef = ref.child("users").child(uid)
-            
-                usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
-                    if  error != nil {
-                        print("esto salio muy mal")
-                        print(error)
-                    }
-                })
-                
-                
-                //Incluir mensaje dummy
-                let mensaje = ["mensaje" : "soy un mensaje dummy", "uid" : uid]
-                let mensajeRef = ref.child("messages").child(uid)
-                mensajeRef.updateChildValues(mensaje)
-
-     
-                // successfully included
-                print("Saved user successfully into our database")
-                print("El nombre es: \(self.nameTextField.text)")
-                print("El correo es: \(self.emailTextField.text)")
-                print("El contrasena es: \(self.passwordTextField.text)")
-                
-            }
+     guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
+     print("Not valid")
+     return
      }
+     
+     var data:AuthDataResultCallback
+     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
+     
+     var user2 = user?.user
+     if error != nil {
+     print("ira esto")
+     print(error)
+     return
+     }
+     
+     guard let uid = user2?.uid else {
+     print("algo salio mal")
+     return
+     }
+     //sucessfully
+     var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
+     let values = ["name" :name, "email": email]
+     let usersRef = ref.child("users").child(uid)
+     
+     usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
+     if  error != nil {
+     print("esto salio muy mal")
+     print(error)
+     }
+     })
+     
+     
+     //Incluir mensaje dummy
+     let mensaje = ["mensaje" : "soy un mensaje dummy", "uid" : uid]
+     let mensajeRef = ref.child("messages").child(uid)
+     mensajeRef.updateChildValues(mensaje)
+     
+     
+     // successfully included
+     print("Saved user successfully into our database")
+     print("El nombre es: \(self.nameTextField.text)")
+     print("El correo es: \(self.emailTextField.text)")
+     print("El contrasena es: \(self.passwordTextField.text)")
+     
+     }
+     }*/
     
 }
 
