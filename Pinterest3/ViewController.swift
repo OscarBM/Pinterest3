@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "hola"
-        setupNavigationBar()
+        //title = "hola"
+        //setupNavigationBar()
         
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
         //let padding1:CGFloat = 10
@@ -151,59 +151,20 @@ class ViewController: UIViewController {
     
     
     //Estafuncion la metiste TU
-    @objc func handleButton(){
+     @objc func handleButton(){
+        //print("hola")
+        facebookButton.isHidden = true
+        //presentedViewController(ViewCEmail, animated: true, completion: nil)
         /*print("El nombre es: \(nameTextField.text)")
          print("El correo es: \(emailTextField.text)")
          print("El contrasena es: \(passwordTextField.text)") */
+        //let secondViewController = ViewController(nibName: "ViewCEmail", bundle: nil)
+        //self.present(secondViewController, animated: true, completion: nil)
         
-        
-    }
+     }
     
-        /*
-     @objc func handleButton(){
-     guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
-     print("Not valid")
-     return
-     }
-     var data:AuthDataResultCallback
-     Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-     var user2 = user?.user
-     if error != nil {
-     print("ira esto")
-     print(error)
-     return
-     }
-     guard let uid = user2?.uid else {
-     print("algo salio mal")
-     return
-     }
-     //sucessfully
-     var ref = Database.database().reference(fromURL: "https://pinterest3-7db31.firebaseio.com/")
-     let values = ["name" :name, "email": email]
-     let usersRef = ref.child("users").child(uid)
-     
-     usersRef.updateChildValues(values, withCompletionBlock: { (error, databaseRef:DatabaseReference?) in
-     if  error != nil {
-     print("esto salio muy mal")
-     print(error)
-     }
-     })
-     
-     
-     //Incluir mensaje dummy
-     let mensaje = ["mensaje" : "soy un mensaje dummy", "uid" : uid]
-     let mensajeRef = ref.child("messages").child(uid)
-     mensajeRef.updateChildValues(mensaje)
-     
-     
-     // successfully included
-     print("Saved user successfully into our database")
-     print("El nombre es: \(self.nameTextField.text)")
-     print("El correo es: \(self.emailTextField.text)")
-     print("El contrasena es: \(self.passwordTextField.text)")
-     
-     }
-     }*/
+    
+    
     
 }
 
