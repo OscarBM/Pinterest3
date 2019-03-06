@@ -16,6 +16,7 @@
 		5531099B220D524C00C25454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55310999220D524C00C25454 /* LaunchScreen.storyboard */; };
 		553109A6220D524C00C25454 /* Pinterest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553109A5220D524C00C25454 /* Pinterest3Tests.swift */; };
 		553109B1220D524C00C25454 /* Pinterest3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553109B0220D524C00C25454 /* Pinterest3UITests.swift */; };
+		556879CF222FB64100C62E8B /* ViewCEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556879CE222FB64100C62E8B /* ViewCEmail.swift */; };
 		7463C5B526B808F6626E76AA /* Pods_Pinterest3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D52ABB5485B2CEE0521F16 /* Pods_Pinterest3.framework */; };
 		8C721E156697B3BB63A2192C /* Pods_Pinterest3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D14F6273E2409C69F2F273 /* Pods_Pinterest3Tests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		553109AC220D524C00C25454 /* Pinterest3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pinterest3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		553109B0220D524C00C25454 /* Pinterest3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinterest3UITests.swift; sourceTree = "<group>"; };
 		553109B2220D524C00C25454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556879CE222FB64100C62E8B /* ViewCEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCEmail.swift; sourceTree = "<group>"; };
 		5B801505586176CA409FFC33 /* Pods_Pinterest3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinterest3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EE45A08BC28760F82CC1C0 /* Pods-Pinterest3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinterest3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Pinterest3UITests/Pods-Pinterest3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0D52ABB5485B2CEE0521F16 /* Pods_Pinterest3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinterest3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				72EE45A08BC28760F82CC1C0 /* Pods-Pinterest3UITests.debug.xcconfig */,
 				1BBE8DCC7E65E520AF674E3F /* Pods-Pinterest3UITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				55310999220D524C00C25454 /* LaunchScreen.storyboard */,
 				5531099C220D524C00C25454 /* Info.plist */,
 				5518BF272213D395001DF830 /* GoogleService-Info.plist */,
+				556879CE222FB64100C62E8B /* ViewCEmail.swift */,
 			);
 			path = Pinterest3;
 			sourceTree = "<group>";
@@ -403,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55310993220D524B00C25454 /* ViewController.swift in Sources */,
+				556879CF222FB64100C62E8B /* ViewCEmail.swift in Sources */,
 				55310991220D524B00C25454 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
