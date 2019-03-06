@@ -71,11 +71,11 @@ class ViewController: UIViewController {
         
         //googleButton.setLeftPaddingPoints(padding1)//Padding
         // Do any additional setup after loading the view, typically from a nib.
-        
-        label1.center = CGPoint(x: 0, y: 285)
+        //pinterestImage.draw(at: CGPoint(x: 0, y: 285))
+        //label1.center = CGPoint(x: 0, y: 285)
         //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
-        label1.textAlignment = .center
-        label1.text = "Si continuas aceptas la condiciones del servicio y la politica de privacidad"
+        //label1.textAlignment = .center
+        //label1.text = "Si continuas aceptas la condiciones del servicio y la politica de privacidad"
         //self.view.addSubview(label1)
         
     }
@@ -158,7 +158,7 @@ class ViewController: UIViewController {
     
     let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
     
-    
+    let pinterestImage = #imageLiteral(resourceName: "pinterest")
     
     
     //Estafuncion la metiste TU
