@@ -15,17 +15,18 @@ class ViewCEmail: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
-        //let padding1:CGFloat = 10
+        let padding1:CGFloat = 10
         
         //add subview
         view.addSubview(buttonContainerView)
         view.addSubview(firstButton)
         
-        buttonContainerView.addSubview(emailButton)
-        buttonContainerView.addSubview(facebookButton)
-        buttonContainerView.addSubview(googleButton)
+        buttonContainerView.addSubview(emailTextField)
         
-        
+        emailTextField.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor).isActive = true
+        emailTextField.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
+        emailTextField.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        emailTextField.setLeftPaddingPoints(padding1)//Padding
         //constraints
         // constraints for input
         
@@ -44,36 +45,6 @@ class ViewCEmail: UIViewController {
         
         
         
-        emailButton.topAnchor.constraint(equalTo: buttonContainerView.topAnchor, constant: -10).isActive = true
-        emailButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
-        emailButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        
-        emailButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
-        emailButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
-        
-        //emailButton.setLeftPaddingPoints(padding1)//Padding
-        
-        
-        facebookButton.topAnchor.constraint(equalTo: emailButton.bottomAnchor, constant: 10).isActive = true
-        facebookButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
-        facebookButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        //facebookButton.setLeftPaddingPoints(padding1)//Padding
-        facebookButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
-        facebookButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
-        
-        
-        
-        googleButton.topAnchor.constraint(equalTo: facebookButton.bottomAnchor, constant: 10).isActive = true
-        googleButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
-        googleButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        
-        googleButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
-        googleButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
-        
-        //googleButton.setLeftPaddingPoints(padding1)//Padding
-        // Do any additional setup after loading the view, typically from a nib.
-        //pinterestImage.draw(at: CGPoint(x: 0, y: 0))
-        
         //label1.center = CGPoint(x: 0, y: 285)
         //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
         //label1.textAlignment = .center
@@ -91,22 +62,6 @@ class ViewCEmail: UIViewController {
         return tf
     }()
     
-    let passwordTextField : UITextField = {
-        let tf = UITextField()
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        tf.placeholder = "Password"
-        tf.backgroundColor = .white
-        tf.isSecureTextEntry = true
-        return tf
-    }()
-    
-    let nameTextField : UITextField = {
-        let tf = UITextField()
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        tf.placeholder = "Name"
-        tf.backgroundColor = .white
-        return tf
-    }()
     
     let buttonContainerView : UIView =  {
         let view = UIView()
@@ -117,35 +72,6 @@ class ViewCEmail: UIViewController {
         return view
     }()
     
-    lazy var emailButton : UIButton = {
-        let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 255/255, green: 20/255, blue: 0/255, alpha: 1)
-        ub.setTitle("Continuar con el correo electronico", for: .normal)
-        ub.translatesAutoresizingMaskIntoConstraints = false
-        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
-        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
-        return ub
-    }()
-    
-    lazy var facebookButton : UIButton = {
-        let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        ub.setTitle("Continuar con Facebook", for: .normal)
-        ub.translatesAutoresizingMaskIntoConstraints = false
-        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
-        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
-        return ub
-    }()
-    
-    lazy var googleButton : UIButton = {
-        let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 30/255, green: 101/255, blue: 161/255, alpha: 1)
-        ub.setTitle("Continuar con Google", for: .normal)
-        ub.translatesAutoresizingMaskIntoConstraints = false
-        //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
-        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
-        return ub
-    }()
     
     lazy var firstButton : UIButton = {
         let ub = UIButton()
@@ -158,9 +84,10 @@ class ViewCEmail: UIViewController {
         return ub
     }()
     
+    
     let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
     
-    let pinterestImage = #imageLiteral(resourceName: "pinterest")
+    //let pinterestImage = #imageLiteral(resourceName: "pinterest")
     
     
     //Estafuncion la metiste TU
