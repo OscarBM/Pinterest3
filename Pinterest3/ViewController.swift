@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "hola"
+        setupNavigationBar()
         
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
         //let padding1:CGFloat = 10
@@ -36,22 +38,17 @@ class ViewController: UIViewController {
         buttonContainerView.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
         
         
-        
         firstButton.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor, constant: 20).isActive = true
         firstButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         firstButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         firstButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
         
         
-        
         emailButton.topAnchor.constraint(equalTo: buttonContainerView.topAnchor, constant: -10).isActive = true
         emailButton.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
         emailButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
-        
         emailButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         emailButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
-        
-        //emailButton.setLeftPaddingPoints(padding1)//Padding
         
         
         facebookButton.topAnchor.constraint(equalTo: emailButton.bottomAnchor, constant: 10).isActive = true
@@ -60,7 +57,7 @@ class ViewController: UIViewController {
         //facebookButton.setLeftPaddingPoints(padding1)//Padding
         facebookButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         facebookButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
-        
+        //facebookButton.isHidden = true
         
         
         googleButton.topAnchor.constraint(equalTo: facebookButton.bottomAnchor, constant: 10).isActive = true
@@ -83,30 +80,20 @@ class ViewController: UIViewController {
     }
     
     
-    let emailTextField : UITextField = {
-        let tf = UITextField()
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        tf.placeholder = "Email"
-        tf.backgroundColor = .white
-        return tf
-    }()
+    func setupNavigationBar(){
+        //backButtonItem.rightBarButtonItem = backButton
+        //
+        //backButton.title = "hola man"
+        navigationItem.leftBarButtonItem = backButton
+        //navigationItem.leftBarButtonItem?.title = "hello my friend"
+        //navigationItem.backBarButtonItem = backButton
+        
+    }
+    //let backButtonItem = UINavigationItem(title: "Back my friend")
     
-    let passwordTextField : UITextField = {
-        let tf = UITextField()
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        tf.placeholder = "Password"
-        tf.backgroundColor = .white
-        tf.isSecureTextEntry = true
-        return tf
-    }()
+    let backButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: nil, action:#selector(handleButton))
     
-    let nameTextField : UITextField = {
-        let tf = UITextField()
-        tf.translatesAutoresizingMaskIntoConstraints = false
-        tf.placeholder = "Name"
-        tf.backgroundColor = .white
-        return tf
-    }()
+    
     
     let buttonContainerView : UIView =  {
         let view = UIView()
@@ -158,7 +145,7 @@ class ViewController: UIViewController {
         return ub
     }()
     
-    let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+    //let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
     
     let pinterestImage = #imageLiteral(resourceName: "pinterest")
     
@@ -167,25 +154,25 @@ class ViewController: UIViewController {
     @objc func handleButton(){
         /*print("El nombre es: \(nameTextField.text)")
          print("El correo es: \(emailTextField.text)")
-         print("El contrasena es: \(passwordTextField.text)") */   }
+         print("El contrasena es: \(passwordTextField.text)") */
+        
+        
+    }
     
-    /*
+        /*
      @objc func handleButton(){
      guard let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text else {
      print("Not valid")
      return
      }
-     
      var data:AuthDataResultCallback
      Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-     
      var user2 = user?.user
      if error != nil {
      print("ira esto")
      print(error)
      return
      }
-     
      guard let uid = user2?.uid else {
      print("algo salio mal")
      return
