@@ -8,8 +8,7 @@
 
 import Foundation
 import UIKit
-import Firebase
-class ViewCEmail: UIViewController {
+class ViewCEmail: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,17 +16,18 @@ class ViewCEmail: UIViewController {
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
         let padding1:CGFloat = 10
         
-        title = "Registrate"
-        
+        //title = "Registrate"
+        setupNavigationBar()
         //add subview
         view.addSubview(buttonContainerView)
         view.addSubview(firstButton)
         
         buttonContainerView.addSubview(emailTextField)
         
-        //label1.center = CGPoint(x: 0, y: 285)
+        label1.center = CGPoint(x: UIScreen.main.bounds.width * 0.5, y: 70)
         //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
         //label1.textAlignment = .center
+        //label1.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         label1.text = "Correo electronico por favor"
         view.addSubview(label1)
         
@@ -40,7 +40,7 @@ class ViewCEmail: UIViewController {
         //constraints
         // constraints for input
         
-        buttonContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 60).isActive = true
+        buttonContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -60).isActive = true
         //buttonContainerView.heightAnchor.constraint(equalTo: view.centerYAnchor, constant: -50).isActive = true
         buttonContainerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         buttonContainerView.heightAnchor.constraint(equalToConstant: 150).isActive = true
@@ -60,6 +60,19 @@ class ViewCEmail: UIViewController {
     }
     
     
+    func setupNavigationBar(){
+        //backButtonItem.rightBarButtonItem = backButton
+        //
+        //backButton.title = "hola man"
+        navigationItem.leftBarButtonItem = backButton
+        //navigationItem.leftBarButtonItem?.title = "hello my friend"
+        //navigationItem.backBarButtonItem = backButton
+        
+    }
+    
+    
+    
+    let backButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: nil, action:#selector(handleButton))
     
     
     let emailTextField : UITextField = {
@@ -83,7 +96,7 @@ class ViewCEmail: UIViewController {
     
     lazy var firstButton : UIButton = {
         let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 30/255, green: 101/255, blue: 161/255, alpha: 1)
+        ub.backgroundColor = UIColor(red: 100/255, green: 101/255, blue: 61/255, alpha: 1)
         ub.setTitleColor(.white, for: .normal)
         ub.setTitle("Siguiente", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
@@ -156,6 +169,7 @@ class ViewCEmail: UIViewController {
      }*/
     
 }
+
 
 /*
  extension UIColor {

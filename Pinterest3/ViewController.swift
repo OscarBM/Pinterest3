@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //title = "hola"
-        //setupNavigationBar()
+        setupNavigationBar()
         
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
         //let padding1:CGFloat = 10
