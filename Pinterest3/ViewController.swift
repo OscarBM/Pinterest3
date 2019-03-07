@@ -26,9 +26,20 @@ class ViewController: UIViewController {
         buttonContainerView.addSubview(emailButton)
         buttonContainerView.addSubview(facebookButton)
         buttonContainerView.addSubview(googleButton)
+        let pinterestImage = #imageLiteral(resourceName: "pinterest")
+        //let imagen:UIImageView = pinterestImage
         
+        //let imageName = "yourImage.png"
+        //let image = UIImage(named: imageName)
+        let imageView = UIImageView(image: pinterestImage)
+        imageView.frame = CGRect(x: UIScreen.main.bounds.width * 0.5, y:UIScreen.main.bounds.height * 0.2, width: 90, height: 90)
         
-        //constraints
+        //imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        //imageView.sizeToFit()
+        
+        view.addSubview(imageView)
+        
+        //imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true        //constraints
         // constraints for input
         
         buttonContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 60).isActive = true
@@ -147,13 +158,13 @@ class ViewController: UIViewController {
     
     //let label1 = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
     
-    let pinterestImage = #imageLiteral(resourceName: "pinterest")
+    
     
     
     //Estafuncion la metiste TU
      @objc func handleButton(){
         //print("hola")
-        facebookButton.isHidden = true
+        //facebookButton.isHidden = true
         //presentedViewController(ViewCEmail, animated: true, completion: nil)
         /*print("El nombre es: \(nameTextField.text)")
          print("El correo es: \(emailTextField.text)")
