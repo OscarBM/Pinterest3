@@ -133,12 +133,12 @@
 			children = (
 				55310990220D524B00C25454 /* AppDelegate.swift */,
 				55310992220D524B00C25454 /* ViewController.swift */,
+				556879CE222FB64100C62E8B /* ViewCEmail.swift */,
 				55310994220D524B00C25454 /* Main.storyboard */,
 				55310997220D524C00C25454 /* Assets.xcassets */,
 				55310999220D524C00C25454 /* LaunchScreen.storyboard */,
 				5531099C220D524C00C25454 /* Info.plist */,
 				5518BF272213D395001DF830 /* GoogleService-Info.plist */,
-				556879CE222FB64100C62E8B /* ViewCEmail.swift */,
 			);
 			path = Pinterest3;
 			sourceTree = "<group>";

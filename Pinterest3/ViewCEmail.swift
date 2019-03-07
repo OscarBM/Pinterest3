@@ -17,15 +17,25 @@ class ViewCEmail: UIViewController {
         view.backgroundColor = UIColor(r: 255, g: 255, b: 255)
         let padding1:CGFloat = 10
         
+        title = "Registrate"
+        
         //add subview
         view.addSubview(buttonContainerView)
         view.addSubview(firstButton)
         
         buttonContainerView.addSubview(emailTextField)
         
+        //label1.center = CGPoint(x: 0, y: 285)
+        //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
+        //label1.textAlignment = .center
+        label1.text = "Correo electronico por favor"
+        view.addSubview(label1)
+        
+        
+        
         emailTextField.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor).isActive = true
         emailTextField.widthAnchor.constraint(equalTo: buttonContainerView.widthAnchor).isActive = true
-        emailTextField.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
+        emailTextField.heightAnchor.constraint(equalToConstant: 70).isActive = true
         emailTextField.setLeftPaddingPoints(padding1)//Padding
         //constraints
         // constraints for input
@@ -45,13 +55,11 @@ class ViewCEmail: UIViewController {
         
         
         
-        //label1.center = CGPoint(x: 0, y: 285)
-        //label1.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
-        //label1.textAlignment = .center
-        //label1.text = "Si continuas aceptas la condiciones del servicio y la politica de privacidad"
-        //self.view.addSubview(label1)
+        
         
     }
+    
+    
     
     
     let emailTextField : UITextField = {
@@ -75,9 +83,9 @@ class ViewCEmail: UIViewController {
     
     lazy var firstButton : UIButton = {
         let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
-        ub.setTitleColor(.black, for: .normal)
-        ub.setTitle("Iniciar sesion", for: .normal)
+        ub.backgroundColor = UIColor(red: 30/255, green: 101/255, blue: 161/255, alpha: 1)
+        ub.setTitleColor(.white, for: .normal)
+        ub.setTitle("Siguiente", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
         //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
         ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
@@ -94,7 +102,9 @@ class ViewCEmail: UIViewController {
     @objc func handleButton(){
         /*print("El nombre es: \(nameTextField.text)")
          print("El correo es: \(emailTextField.text)")
-         print("El contrasena es: \(passwordTextField.text)") */   }
+         print("El contrasena es: \(passwordTextField.text)") */
+        
+    }
     
     /*
      @objc func handleButton(){
