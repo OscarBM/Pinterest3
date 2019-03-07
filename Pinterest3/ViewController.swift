@@ -50,6 +50,7 @@ class ViewController: UIViewController {
         firstButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         firstButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         firstButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        firstButton.layer.cornerRadius = 10
         
         
         emailButton.topAnchor.constraint(equalTo: buttonContainerView.topAnchor, constant: -10).isActive = true
@@ -57,6 +58,7 @@ class ViewController: UIViewController {
         emailButton.heightAnchor.constraint(equalTo: buttonContainerView.heightAnchor, multiplier: 1/3).isActive = true
         emailButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         emailButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        emailButton.layer.cornerRadius = 10
         
         
         facebookButton.topAnchor.constraint(equalTo: emailButton.bottomAnchor, constant: 10).isActive = true
@@ -65,6 +67,7 @@ class ViewController: UIViewController {
         //facebookButton.setLeftPaddingPoints(padding1)//Padding
         facebookButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         facebookButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        facebookButton.layer.cornerRadius = 10
         //facebookButton.isHidden = true
         
         
@@ -74,6 +77,7 @@ class ViewController: UIViewController {
         
         googleButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         googleButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
+        googleButton.layer.cornerRadius = 10
         
         //googleButton.setLeftPaddingPoints(padding1)//Padding
         // Do any additional setup after loading the view, typically from a nib.
@@ -144,8 +148,8 @@ class ViewController: UIViewController {
     
     lazy var firstButton : UIButton = {
         let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
-        ub.setTitleColor(.black, for: .normal)
+        ub.backgroundColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1)
+        ub.setTitleColor(.white, for: .normal)
         ub.setTitle("Iniciar sesion", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
         //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
