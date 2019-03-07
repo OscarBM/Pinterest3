@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         //let imageName = "yourImage.png"
         //let image = UIImage(named: imageName)
         let imageView = UIImageView(image: pinterestImage)
-        imageView.frame = CGRect(x: UIScreen.main.bounds.width * 0.37, y:UIScreen.main.bounds.height * 0.2, width: 110, height: 110)
+        imageView.frame = CGRect(x: UIScreen.main.bounds.width * 0.34, y:UIScreen.main.bounds.height * 0.2, width: 130, height: 130)
         
         view.addSubview(imageView)
         
@@ -42,11 +42,11 @@ class ViewController: UIViewController {
         buttonContainerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 60).isActive = true
         //buttonContainerView.heightAnchor.constraint(equalTo: view.centerYAnchor, constant: -50).isActive = true
         buttonContainerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        buttonContainerView.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        buttonContainerView.heightAnchor.constraint(equalToConstant: 190).isActive = true
         buttonContainerView.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -30).isActive = true
         
         
-        firstButton.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor, constant: 20).isActive = true
+        firstButton.topAnchor.constraint(equalTo: buttonContainerView.bottomAnchor, constant: 70).isActive = true
         firstButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
         firstButton.leftAnchor.constraint(equalTo: buttonContainerView.leftAnchor).isActive = true
         firstButton.rightAnchor.constraint(equalTo: buttonContainerView.rightAnchor).isActive = true
@@ -142,13 +142,14 @@ class ViewController: UIViewController {
         ub.setTitle("Continuar con Google", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
         //ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
-        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)//Esta linea la metiste TU
+        ub.addTarget(self, action: #selector(handleButton), for: .touchUpInside)
+        //Esta linea la metiste TU
         return ub
     }()
     
     lazy var firstButton : UIButton = {
         let ub = UIButton()
-        ub.backgroundColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 1)
+        ub.backgroundColor = UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1)
         ub.setTitleColor(.white, for: .normal)
         ub.setTitle("Iniciar sesion", for: .normal)
         ub.translatesAutoresizingMaskIntoConstraints = false
