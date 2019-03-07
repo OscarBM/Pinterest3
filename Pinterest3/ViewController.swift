@@ -32,10 +32,7 @@ class ViewController: UIViewController {
         //let imageName = "yourImage.png"
         //let image = UIImage(named: imageName)
         let imageView = UIImageView(image: pinterestImage)
-        imageView.frame = CGRect(x: UIScreen.main.bounds.width * 0.5, y:UIScreen.main.bounds.height * 0.2, width: 90, height: 90)
-        
-        //imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        //imageView.sizeToFit()
+        imageView.frame = CGRect(x: UIScreen.main.bounds.width * 0.37, y:UIScreen.main.bounds.height * 0.2, width: 110, height: 110)
         
         view.addSubview(imageView)
         
